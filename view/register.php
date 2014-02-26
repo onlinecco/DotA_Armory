@@ -1,3 +1,5 @@
+<?php include("../back/register.php"); ?>
+
 <!doctype html>
 <html>
 <head>
@@ -5,28 +7,33 @@
 <title>register</title>
 </head>
 
-<body>
-<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+<body style="background-color:black;color:white;">
 
-Name: <input type="text" name="name">
-<span class="error">* <?php echo $nameErr;?></span>
+<form style="padding: 0px 0px 0px 0px;margin:0px;border: dashed 1px;" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+
+<table>
+<tr align="left"><td>Name:</td><td> <input size=42 type="text" name="name">*</td>
+</tr><tr><td></td><td><span class="error"> <?php echo $nameErr;?></span></td></tr>
 <br><br>
-E-mail:
-<input type="text" name="email">
-<span class="error">* <?php echo $emailErr;?></span>
+<tr align="left"><td>E-mail:</td>
+<td><input type="text" name="email">*</td>
+</tr><tr><td></td><td><span class="error"> <?php echo $emailErr;?></span></td></tr>
 <br><br>
-Website:
-<input type="text" name="website">
-<span class="error"><?php echo $websiteErr;?></span>
+<tr align="left"><td>
+Website:</td>
+<td><input type="text" name="website"></td>
+</tr><tr><td></td><td><span class="error"><?php echo $websiteErr;?></span></td>
+</tr><br><br>
+<tr align="left"><td>Comment:</td><td> <textarea name="comment" rows="5" cols="40"></textarea></td></tr>
 <br><br>
-<label>Comment: <textarea name="comment" rows="5" cols="40"></textarea>
-<br><br>
-Gender:
+<tr align="left"><td>Gender:</td><td>
 <input type="radio" name="gender" value="female">Female
-<input type="radio" name="gender" value="male">Male
-<span class="error">* <?php echo $genderErr;?></span>
-<br><br>
-<input type="submit" name="submit" value="Submit"> 
+<input type="radio" name="gender" value="male">Male *</td></tr><tr><td></td><td>
+<span class="error"> <?php echo $genderErr;?></span></td></tr>
+<br><br><tr align="left"><td>
+<input type="submit" name="submit" value="Submit"> </td></tr>
+
+</table>
 
 </form>
 </body>
