@@ -4,10 +4,38 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>register</title>
+<title>DotA 2 Armory</title>
+<link rel="stylesheet" href="../css/style.css" type="text/css">
 </head>
 
-<body style="background-color:black;color:white;">
+<body>
+<div class="header">
+<ul>
+				<li class="selected">
+					<a href="view/heroes.html"><span>H</span>eroes</a>
+				</li>
+				<li>
+					<a href="view/items.html"><span>I</span>tems</a>
+				</li>
+				<li>
+					<a href="view/players.html"><span>P</span>layers</a>
+				</li>
+				<li>
+					<a href="view/matches.html"><span>M</span>atches</a>
+				</li>
+				<li>
+					<a href="view/login.html"><span>L</span>ogin</a>
+				</li>
+				<li>
+					<a href="view/register.php"><span>R</span>egsiter</a>
+
+				</li>
+			</ul>
+					<div class="body">
+
+                    </div>
+</div>
+
 
 <table>
 <form style="padding: 0px 0px 0px 0px;margin:0px;border: dashed 1px;" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
