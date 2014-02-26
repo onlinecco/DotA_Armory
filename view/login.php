@@ -1,4 +1,4 @@
-<?php include("../back/register.php"); ?>
+<?php include("../back/login.php"); ?>
 
 <!doctype html>
 <html>
