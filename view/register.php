@@ -9,9 +9,9 @@
 
 <body style="background-color:black;color:white;">
 
+<table>
 <form style="padding: 0px 0px 0px 0px;margin:0px;border: dashed 1px;" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
 
-<table>
 <tr align="left"><td>Name:</td><td> <input size=42 type="text" name="name">*</td>
 </tr><tr><td></td><td><span class="error"> <?php echo $nameErr;?></span></td></tr>
 <br><br>
@@ -32,9 +32,7 @@ Website:</td>
 <span class="error"> <?php echo $genderErr;?></span></td></tr>
 <br><br><tr align="left"><td>
 <input type="submit" name="submit" value="Submit"> </td></tr>
-
-</table>
-
 </form>
+</table>
 </body>
 </html>

@@ -21,7 +21,13 @@ if (!preg_match("/^[a-zA-Z ]*$/",$name))
 if (!preg_match("/([\w\-]+\@[\w\-]+\.[\w\-]+)/",$email))
   {
   $emailErr = "Invalid email format"; 
-  }}
+  }
+
+	if (!preg_match("#.*@illinois.edu$#i",$email))
+	{
+		$emailErr = "Must register using a UIUC email";
+	}
+}
   if (empty($_POST["website"]))
     {$website = "";}
   else
