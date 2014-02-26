@@ -1,1 +1,5 @@
 [18-Feb-2014 20:17:39 America/Chicago] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/jcao7/public_html/date.php on line 6
+[26-Feb-2014 14:06:14 America/Chicago] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/jcao7/public_html/index.php on line 9
+[26-Feb-2014 14:06:14 America/Chicago] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/jcao7/public_html/index.php on line 9
+[26-Feb-2014 14:06:17 America/Chicago] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/jcao7/public_html/index.php on line 9
+[26-Feb-2014 14:06:17 America/Chicago] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/jcao7/public_html/index.php on line 9

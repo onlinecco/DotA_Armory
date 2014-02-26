@@ -1,21 +1,21 @@
 <div class="header">
 <ul>
-				<li class="selected">
-					<a href="heroes.html"><span>H</span>eroes</a>
+				<li style="margin:0 0 0 100px">
+					<a href="heroes.php"><span>H</span>eroes</a>
 				</li>
 				<li>
-					<a href="items.html"><span>I</span>tems</a>
+					<a href="items.php"><span>I</span>tems</a>
 				</li>
 				<li>
-					<a href="players.html"><span>P</span>layers</a>
+					<a href="players.php"><span>P</span>layers</a>
 				</li>
 				<li>
-					<a href="matches.html"><span>M</span>atches</a>
+					<a href="matches.php"><span>M</span>atches</a>
 				</li>
-				<li style="margin: 0 0 0 800px">
+				<li style="float:right;margin: 0 100px 0 15px;">
 					<a href="login.php"><span>L</span>ogin</a>
 				</li>
-				<li>
+				<li style="float:right">
 					<a href="register.php"><span>R</span>egsiter</a>
 
 				</li>

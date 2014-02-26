@@ -1,4 +1,3 @@
-<!doctype html>
 <html>
 <head>
 <meta charset="UTF-8">
@@ -6,10 +5,10 @@
 <link rel="stylesheet" href="../css/style.css" type="text/css">
 </head>
 <body>
-					<?php include("header.php") ?>
-					<div class="body">
-
+<?php include("header.php");?>
+				<div class="body">
+<div class="content"></div>
                     </div>
-
+<?php include("footer.php");?>
 </body>
 </html>

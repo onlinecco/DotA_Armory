@@ -2,3 +2,5 @@
 [26-Feb-2014 02:17:39 America/Chicago] PHP Parse error:  syntax error, unexpected '{' in /home/jcao7/public_html/back/register.php on line 28
 [26-Feb-2014 10:19:51 America/Chicago] PHP Warning:  preg_match(): No ending delimiter '^' found in /home/jcao7/public_html/back/register.php on line 26
 [26-Feb-2014 10:19:59 America/Chicago] PHP Warning:  preg_match(): No ending delimiter '^' found in /home/jcao7/public_html/back/register.php on line 26
+[26-Feb-2014 14:55:34 America/Chicago] PHP Warning:  include(view/footer.php): failed to open stream: No such file or directory in /home/jcao7/public_html/view/items.php on line 13
+[26-Feb-2014 14:55:34 America/Chicago] PHP Warning:  include(): Failed opening 'view/footer.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/jcao7/public_html/view/items.php on line 13
