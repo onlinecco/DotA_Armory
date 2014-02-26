@@ -28,13 +28,13 @@ if (!preg_match("/([\w\-]+\@[\w\-]+\.[\w\-]+)/",$email))
 		$emailErr = "Must register using a UIUC email";
 	}
 }
-  if (empty($_POST["website"]))
+  if (empty($_POST["steamid"]))
     {$website = "";}
   else
-    {$website = test_input($_POST["website"]);
-if (!preg_match("/\b(?:(?:https?|ftp):\/\/|www\.)[-a-z0-9+&@#\/%?=~_|!:,.;]*[-a-z0-9+&@#\/%=~_|]/i",$website))
+    {$website = test_input($_POST["steamid"]);
+if (!preg_match("/^[0-9]*$/",$website))
   {
-  $websiteErr = "Invalid URL"; 
+  $websiteErr = "Invalid SteamID"; 
   }
 	}
   if (empty($_POST["comment"]))

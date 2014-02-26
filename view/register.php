@@ -16,12 +16,12 @@
 </tr><tr><td></td><td><span class="error"> <?php echo $nameErr;?></span></td></tr>
 <br><br>
 <tr align="left"><td>E-mail:</td>
-<td><input type="text" name="email">*</td>
+<td><input size=42 type="text" name="email">*</td>
 </tr><tr><td></td><td><span class="error"> <?php echo $emailErr;?></span></td></tr>
 <br><br>
 <tr align="left"><td>
-Website:</td>
-<td><input type="text" name="website"></td>
+SteamID:</td>
+<td><input size=42 type="text" name="steamid"></td>
 </tr><tr><td></td><td><span class="error"><?php echo $websiteErr;?></span></td>
 </tr><br><br>
 <tr align="left"><td>Comment:</td><td> <textarea name="comment" rows="5" cols="40"></textarea></td></tr>
