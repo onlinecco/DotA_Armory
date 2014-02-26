@@ -7,7 +7,8 @@ body {
 }
 
 .header {
-margin: 0 0 41px;
+position:relative;
+margin: 0 0 41px 0;
 height: 170px;
 background-color: #333;
 	
@@ -46,12 +47,18 @@ background-image:url("../images/b1.jpg");
 .content {
 	margin: 42px 100px 0px 100px;	
 	height: 800px;
-	background-color: black;
-	opacity:0.7;
+	background-color: rgba(0, 0, 0, .7);
+	padding: 50px 50px 0 50px;
 }
 .footer {
 	position: relative;
 	height:60px;
 	text-align: center;
 	color: white;
+}
+.text {
+	float: center;
+	position: relative;
+	background-color: black;
+	height: 800px;
 }

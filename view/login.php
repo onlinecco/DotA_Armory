@@ -10,6 +10,7 @@
 <?php include("header.php");?>
 					<div class="body">
 <div class="content">
+<div class="text">
 <table align="center">
 <form style="padding: 0px 0px 0px 0px;margin:0px;border: dashed 1px;" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
 
@@ -35,7 +36,7 @@ SteamID:</td>
 <input type="submit" name="submit" value="Submit"> </td></tr>
 </form>
 </table>
-                    </div>
+                </div>    </div>
 </div>
 <?php include("footer.php");?>
 

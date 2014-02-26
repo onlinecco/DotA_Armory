@@ -8,7 +8,11 @@
 <?php include("header.php");?>
 				<div class="body">
 
-<div class="content"></div>                    
+<div class="content">
+
+
+<div class="text"></div>                    
+</div>                    
 </div>
 <?php include("footer.php");?>
 </body>
