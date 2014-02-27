@@ -1,7 +1,7 @@
 <?php
 // define variables and set to empty values
-$nameErr = $emailErr = $genderErr = $websiteErr = "";
-$name = $email = $gender = $comment = $website = "";
+$pwErr=$nameErr = $emailErr = $genderErr = $websiteErr = "";
+$password=$name = $email = $gender = $comment = $website = "";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST")
 {
@@ -14,6 +14,16 @@ if (!preg_match("/^[a-zA-Z ]*$/",$name))
   {
   $nameErr = "Only letters and white space allowed"; 
   }}
+
+  if (empty($_POST["password"]))
+    {$pwErr = "Password is required";}
+  else
+    {$password = test_input($_POST["password"]);
+if (!preg_match("/^[a-zA-Z ]*$/",$password))
+  {
+  $pwErr = "Only letters and white space allowed"; 
+  }}
+
   if (empty($_POST["email"]))
     {$emailErr = "Email is required";}
   else

@@ -1,4 +1,5 @@
 <div class="header">
+<a href="../index.php"><img class="logo" src="../images/logo.png"></img></a>
 <ul>
 				<li style="float:left;margin:0 0 0 100px">
 					<a href="heroes.php"><span>H</span>eroes</a>

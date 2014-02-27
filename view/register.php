@@ -21,6 +21,10 @@
 <td><input size=42 type="text" name="email">*</td>
 </tr><tr><td></td><td><span class="error"> <?php echo $emailErr;?></span></td></tr>
 <br><br>
+<tr align="left"><td>Password:</td>
+<td><input size=42 type="password" name="password">*</td>
+</tr><tr><td></td><td><span class="error"> <?php echo $pwErr;?></span></td></tr>
+<br><br>
 <tr align="left"><td>
 SteamID:</td>
 <td><input size=42 type="text" name="steamid"></td>
