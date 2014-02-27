@@ -5,7 +5,13 @@ body {
 	margin: 0;
 	color: white;
 }
-
+.logo{
+	margin: auto;
+	width:100px;
+	height:100px;
+	float:top;
+	background-image: url("../images/logo.png");
+}
 .header {
 position:relative;
 margin: 0 0 41px 0;
@@ -15,7 +21,7 @@ background-color: #333;
 }
 
 ul {
-padding: 140px 0 0 0;
+padding: 20px 0 0 0;
 	
 }
 ul li{
