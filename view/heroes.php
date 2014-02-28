@@ -9,7 +9,7 @@
 <div class="body">
 <div class="content">
 
-<div class="text">3123123</div>
+<div class="text">HUEHUEHUE</div>
 </div>
 </div>
 <?php include("footer.php");?> 
