@@ -4,3 +4,9 @@
 [26-Feb-2014 10:19:59 America/Chicago] PHP Warning:  preg_match(): No ending delimiter '^' found in /home/jcao7/public_html/back/register.php on line 26
 [26-Feb-2014 14:55:34 America/Chicago] PHP Warning:  include(view/footer.php): failed to open stream: No such file or directory in /home/jcao7/public_html/view/items.php on line 13
 [26-Feb-2014 14:55:34 America/Chicago] PHP Warning:  include(): Failed opening 'view/footer.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/jcao7/public_html/view/items.php on line 13
+[04-Mar-2014 23:11:46 America/Chicago] PHP Parse error:  syntax error, unexpected '[' in /home/dotaarmory/public_html/back/matches.php on line 17
+[04-Mar-2014 23:18:04 America/Chicago] PHP Warning:  Illegal string offset 'result' in /home/dotaarmory/public_html/back/matches.php on line 17
+[04-Mar-2014 23:18:04 America/Chicago] PHP Warning:  Illegal string offset 'heroes' in /home/dotaarmory/public_html/back/matches.php on line 18
+[04-Mar-2014 23:18:04 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/dotaarmory/public_html/back/matches.php on line 19
+[04-Mar-2014 23:22:06 America/Chicago] PHP Fatal error:  Cannot use object of type stdClass as array in /home/dotaarmory/public_html/back/matches.php on line 18
+[04-Mar-2014 23:23:19 America/Chicago] PHP Fatal error:  Cannot use object of type stdClass as array in /home/dotaarmory/public_html/back/matches.php on line 22

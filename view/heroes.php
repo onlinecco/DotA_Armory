@@ -6,10 +6,14 @@
 </head>
 <body>
 <?php include("header.php"); ?>
-<div class="body">
-<div class="content">
+<div class="body" height=800>
+<div class="content" height=800>
 
-<div class="text">HUEHUEHUE</div>
+<div class="text" height=800>
+
+<?php include("../back/heroes.php"); ?>
+
+</div>
 </div>
 </div>
 <?php include("footer.php");?> 

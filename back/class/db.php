@@ -19,7 +19,7 @@ private $show_error = true;
 /**
 *construct function
 */
-public function __construct($host="localhost",$user="dotaarmory_admin",$pwd="dotaarmoryftw2014",$db="main",$prefix ="dotaarmory_",$conn="conn"){
+public function __construct($host="engr-cpanel-mysql.engr.illinois.edu",$user="dotaarmory_admin",$pwd="dotaarmoryftw2014",$db="dotaarmory_main",$prefix ="",$conn="conn"){
 	$this->host   = $host;
     $this->user   = $user;
     $this->pwd    = $pwd;

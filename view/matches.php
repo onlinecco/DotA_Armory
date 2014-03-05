@@ -9,7 +9,11 @@
 					<div class="body">
 <div class="content">
 
-<div class="text"></div>
+<div class="text">
+
+<?php include("../back/matches.php");?>
+
+</div>
 </div>
                     </div>
 <?php include("footer.php");?>

@@ -1,0 +1,2 @@
+[04-Mar-2014 21:40:19 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'dotaarmory_admin'@'localhost' (using password: YES) in /home/dotaarmory/public_html/back/class/db.php on line 37
+[04-Mar-2014 21:42:34 America/Chicago] PHP Fatal error:  Call to a member function fetch_array() on a non-object in /home/dotaarmory/public_html/back/class/db.php on line 209
