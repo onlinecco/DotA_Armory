@@ -59,3 +59,10 @@
 [06-Mar-2014 13:01:15 America/Chicago] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH) in /home/dotaarmory/public_html/back/matches.php on line 12
 [06-Mar-2014 13:01:31 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/dotaarmory/public_html/back/matches.php on line 14
 [06-Mar-2014 13:32:00 America/Chicago] PHP Parse error:  syntax error, unexpected '==' (T_IS_EQUAL) in /home/dotaarmory/public_html/back/register.php on line 70
+[06-Mar-2014 15:50:15 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dotaarmory/public_html/view/register.php:10) in /home/dotaarmory/public_html/back/steamopenid.php on line 12
+[06-Mar-2014 16:01:00 America/Chicago] PHP Parse error:  syntax error, unexpected 'public' (T_PUBLIC) in /home/dotaarmory/public_html/back/steamopenid.php on line 4
+[06-Mar-2014 16:01:49 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/dotaarmory/public_html/back/steamopenid.php on line 24
+[06-Mar-2014 16:02:06 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dotaarmory/public_html/back/register.php:71) in /home/dotaarmory/public_html/back/steamopenid.php on line 13
+[06-Mar-2014 16:02:59 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dotaarmory/public_html/back/register.php:71) in /home/dotaarmory/public_html/back/steamopenid.php on line 14
+[06-Mar-2014 16:03:35 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dotaarmory/public_html/back/register.php:71) in /home/dotaarmory/public_html/back/steamopenid.php on line 13
+[06-Mar-2014 16:04:34 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/dotaarmory/public_html/view/register.php:10) in /home/dotaarmory/public_html/back/steamopenid.php on line 13

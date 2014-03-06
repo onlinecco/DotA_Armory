@@ -1,6 +1,8 @@
 <?php
 require "class/openid.php";
-try {
+
+$steamid= "000";
+
     # Change 'localhost' to your domain name.
     $openid = new LightOpenID('engr-cpanel-mysql.engr.illinois.edu');
     if(!$openid->mode) {
@@ -16,6 +18,5 @@ try {
         echo 'User ' . ($openid->validate() ? $openid->identity . ' has ' : 'has not ') . 'logged in.';
 	print_r($openid->getAttributes());
     }
-} catch(ErrorException $e) {
-    echo $e->getMessage();
-}
+
+?>

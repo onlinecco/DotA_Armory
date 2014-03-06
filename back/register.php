@@ -68,7 +68,6 @@ if (!preg_match("/^[0-9]*$/",$website))
 
 if($pwErr== "" && $nameErr == "" && $emailErr == "" && $genderErr == "" && $websiteErr == "")
 {
-	echo "!!!!!!!!!";
 	$box->add("Users","`Username`,`Password`,`SteamID`,`Email`","'".$name."','".$password."','".$website."','".$email."'");
 
 }

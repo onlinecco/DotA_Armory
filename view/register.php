@@ -25,9 +25,11 @@
 <td><input size=42 type="password" name="password">*</td>
 </tr><tr><td></td><td><span class="error"> <?php echo $pwErr;?></span></td></tr>
 <br><br>
+<tr align="left"><td></td>
+<td><a href="../back/steamopenid.php"><img src="../images/steamlogin.png"></img></a></td></tr><br><br>
 <tr align="left"><td>
 SteamID:</td>
-<td><input size=42 type="text" name="steamid"></td>
+<td><input size=42 type="text" disabled="disabled" name="steamid" value=<?php echo $steamid; ?> ></td>
 </tr><tr><td></td><td><span class="error"><?php echo $websiteErr;?></span></td>
 </tr><br><br>
 <tr align="left"><td>Comment:</td><td> <textarea name="comment" rows="5" cols="40"></textarea></td></tr>
