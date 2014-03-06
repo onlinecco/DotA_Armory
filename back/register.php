@@ -1,27 +1,36 @@
 <?php
+
+include("class/db.php");
 // define variables and set to empty values
 $pwErr=$nameErr = $emailErr = $genderErr = $websiteErr = "";
 $password=$name = $email = $gender = $comment = $website = "";
+
+$box = new DB_class;
 
 if ($_SERVER["REQUEST_METHOD"] == "POST")
 {
 
   if (empty($_POST["name"]))
-    {$nameErr = "Name is required";}
-  else
-    {$name = test_input($_POST["name"]);
-if (!preg_match("/^[a-zA-Z ]*$/",$name))
   {
-  $nameErr = "Only letters and white space allowed"; 
-  }}
+	$nameErr = "Name is required";
+  }
+  else
+  {
+	$name = test_input($_POST["name"]);
+	if (!preg_match("/^[a-zA-Z0-9]*$/",$name))
+  	{
+  		$nameErr = "Only letters and numbers allowed"; 
+  	}
+	
+  }
 
   if (empty($_POST["password"]))
     {$pwErr = "Password is required";}
   else
     {$password = test_input($_POST["password"]);
-if (!preg_match("/^[a-zA-Z ]*$/",$password))
+if (!preg_match("/^[a-zA-Z0-9]*$/",$password))
   {
-  $pwErr = "Only letters and white space allowed"; 
+  $pwErr = "Only letters and numbers allowed"; 
   }}
 
   if (empty($_POST["email"]))
@@ -56,7 +65,17 @@ if (!preg_match("/^[0-9]*$/",$website))
     {$genderErr = "Gender is required";}
   else
     {$gender = test_input($_POST["gender"]);}
+
+if($pwErr== "" && $nameErr == "" && $emailErr == "" && $genderErr == "" && $websiteErr == "")
+{
+	echo "!!!!!!!!!";
+	$box->add("Users","`Username`,`Password`,`SteamID`,`Email`","'".$name."','".$password."','".$website."','".$email."'");
+
 }
+
+}
+
+
 function test_input($data)
 {
   $data = trim($data);

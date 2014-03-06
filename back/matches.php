@@ -2,27 +2,35 @@
 
 include("class/d2api.php");
 
-$d2 = new d2API();
+$d2 = new d2API("76561198047054082");
 
-$result = $d2->getMathces();
+$result = $d2->getMatches();
 
-foreach($result as $label => $element)
+//$result = $d2->getHeroList();
+
+//	print_r($element)
+foreach($result as $element)
 {
-	
-	echo "Match ID: $element["match_id"]<br>";
-	echo "Lobby Type: $element["lobby_type"]<br>";
+	$matchid = $element["match_id"];
+	$lobbytype = $element["lobby_type"];
+	echo "Match ID: $matchid<br>";
+	echo "Lobby Type: $lobbytype<br>";
 	$i = 0;
 	foreach($element["players"] as $player)
 	{
-		echo "Player . $i . ID: $player["account_id"]<br>";
+		$accountid = $player["account_id"];
+		$playerslot = $player["player_slot"];
+		$heroid = $player["hero_id"];
+
+		echo "Player $i ID: $accountid<br>";
 		
-		echo "Player . $i . ID: $player["player_slot"]<br>";
+		echo "Player $i slot: $playerslot<br>";
 		
-		echo "Player . $i . ID: $player["hero_id"]<br>";
+		echo "Hero $i ID: $heroid<br>";
 
 		$i = $i + 1;
 	}
+	echo "<br>";
 }
-
 
 ?>

@@ -1,4 +1,4 @@
-<html>
+<html> 
 <head>
 <meta charset="UTF-8">
 <title>DotA 2 Armory</title>
@@ -10,9 +10,12 @@
 <div class="content" height=800>
 
 <div class="text" height=800>
-
+<form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="get">
+Hero Name: <input type="text" name="name"><br>
+<input type="submit">
+<br>
 <?php include("../back/heroes.php"); ?>
-
+<?php echo $unErr ?>
 </div>
 </div>
 </div>

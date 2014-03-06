@@ -2,12 +2,12 @@
 
         
 
+define("API_KEY","9FCDE5B7BC2797BCE4F68F7892AB26E8");
 class d2API
 {
-	define("API_KEY","9FCDE5B7BC2797BCE4F68F7892AB26E8");
-	$id = "43394177";
+	private $id = "76561198047054082";
 
-	public function __construct($uid = "43394177")
+	public function __construct($uid = "76561198047054082")
 	{
 		$this->id = $uid;
 	}
@@ -26,7 +26,7 @@ class d2API
 
         	$r = curl_exec($ch);
         	curl_close($ch);
-        	$r = json_decode($ri,true);
+		$r = json_decode($r,true);
 		
 		return $r;	
 	}
@@ -37,21 +37,24 @@ class d2API
 		$url = "https://api.steampowered.com/IEconDOTA2_570/GetHeroes/v0001/?key=9FCDE5B7BC2797BCE4F68F7892AB26E8&language=en_us";
 
 		$r = $this->request($url);
-		$r = ($r["result"])["heroes"];
+		$r = $r["result"];
+		$r = $r["heroes"];
 
-		return $r;
-	/*	
-        	foreach($r as $ename => $element)
+		/*	
+        	foreach($r as $element)
         	{
-                	printf("id: %s,<br>name: %s,<br>",$element['id'],$element->['localized_name']);
+                	printf("id: %s,<br>name: %s,<br>",$element["id"],$element["localized_name"]);
 		}
 	*/
+		return $r;
 	}
 
-	public function getMatch()
+	public function getMatches()
 	{
-		$url = "https://api.steampowered.com/IDOTA2Match_570/GetMatchHistory/V001/?key=<key>&account_id=" . $this->id;
+		$url = "https://api.steampowered.com/IDOTA2Match_570/GetMatchHistory/V001/?key=9FCDE5B7BC2797BCE4F68F7892AB26E8&account_id=" . $this->id;
 		$r = $this->request($url);
+		
+		$r = $r['result'];
 		$r = $r['matches'];
 		return $r;
 	}
