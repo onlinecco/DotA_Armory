@@ -4,9 +4,22 @@
 <meta charset="UTF-8">
 <title>DotA 2 Armory</title>
 <link rel="stylesheet" href="../css/style.css" type="text/css">
+<script src="../css/jquery-1.11.0.min.js"></script>
 </head>
 
 <body>
+<script>
+$("#steamlogin").on('click', function(){
+
+	    $.ajax({
+	           url: "../back/steamopenid.php",
+	          dataType: 'text',
+		  success: function(data){
+			  $('#steamid').val(data);
+				        }
+            });
+)};
+</script>
 <?php include("header.php");?>
 					<div class="body">
 <div class="content">
@@ -26,10 +39,10 @@
 </tr><tr><td></td><td><span class="error"> <?php echo $pwErr;?></span></td></tr>
 <br><br>
 <tr align="left"><td></td>
-<td><a href="../back/steamopenid.php"><img src="../images/steamlogin.png"></img></a></td></tr><br><br>
+<td><img id="steamlogin" src="../images/steamlogin.png"></img></td></tr><br><br>
 <tr align="left"><td>
 SteamID:</td>
-<td><input size=42 type="text" disabled="disabled" name="steamid" value=<?php echo $steamid; ?> ></td>
+<td><input size=42 id="steamid" type="text" disabled="disabled" name="steamid"></td>
 </tr><tr><td></td><td><span class="error"><?php echo $websiteErr;?></span></td>
 </tr><br><br>
 <tr align="left"><td>Comment:</td><td> <textarea name="comment" rows="5" cols="40"></textarea></td></tr>
