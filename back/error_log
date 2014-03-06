@@ -1,0 +1,2 @@
+[06-Mar-2014 15:16:04 America/Chicago] PHP Warning:  require(openid.php): failed to open stream: No such file or directory in /home/dotaarmory/public_html/back/steamopenid.php on line 2
+[06-Mar-2014 15:16:04 America/Chicago] PHP Fatal error:  require(): Failed opening required 'openid.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/dotaarmory/public_html/back/steamopenid.php on line 2
