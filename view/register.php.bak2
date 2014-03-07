@@ -1,0 +1,29 @@
+<?php
+require '../back/class/openid.php';
+try {
+    # Change 'localhost' to your domain name.
+    $openid = new LightOpenID('dotaarmory.web.engr.illinois.edu/view/register.php.bak2');
+    if(!$openid->mode) {
+        if(isset($_POST['login'])) {
+            $openid->identity = "http://steamcommunity.com/openid/?l=english";
+            # The following two lines request email, full name, and a nickname
+            # from the provider. Remove them if you don't need that data.
+            $openid->required = array('contact/email');
+            $openid->optional = array('namePerson', 'namePerson/friendly');
+            header('Location: ' . $openid->authUrl());
+        }
+?>
+<form action="" method="post">
+<input type="image" src="http://cdn.steamcommunity.com/public/images/signinthroughsteam/sits_small.png" value="1" name="login">
+</form>
+<?php
+    } elseif($openid->mode == 'cancel') {
+        echo 'User has canceled authentication!';
+    } else {
+        echo 'User ' . ($openid->validate() ? $openid->identity . ' has ' : 'has not ') . 'logged in.';
+	print_r($openid->getAttributes());
+    }
+} catch(ErrorException $e) {
+    echo $e->getMessage();
+}
+?>

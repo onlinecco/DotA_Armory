@@ -4,7 +4,7 @@ include("class/db.php");
 // define variables and set to empty values
 $pwErr=$nameErr = $emailErr = $genderErr = $websiteErr = "";
 $password=$name = $email = $gender = $comment = $website = "";
-
+session_start();
 $box = new DB_class;
 
 if ($_SERVER["REQUEST_METHOD"] == "POST")

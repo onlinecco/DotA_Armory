@@ -6,6 +6,10 @@ body {
 	color: white;
 	width:100%;
 }
+form{
+	margin-left: auto;
+	margin-right: auto;
+}
 .logo{
 	
 	left: 50%;
@@ -63,16 +67,17 @@ background-image:url("../images/b1.jpg");
 	padding: 50px 50px 0 50px;
 }
 .footer {
-	position: relative;
 	height:60px;
 	text-align: center;
 	color: white;
 }
 .text {
 	padding: 20px;
-	float: center;
-	position: relative;
 	background-color: black;
+	float: top;
 	height: auto;
 	min-height: 800px;
 }
+
+
+
