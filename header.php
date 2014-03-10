@@ -17,6 +17,9 @@
 					<a href="view/login.php"><span>L</span>ogin</a>
 				</li>
 				<li style="float:right;">
+				<a href="view/profile.php"><span>P</span>rofile</a>
+				</li>
+				<li style="float:right;">
 					<a href="view/register.php"><span>R</span>egsiter</a>
 
 				</li>

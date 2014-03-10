@@ -16,6 +16,9 @@
 				<li style="float:right;margin: 0 100px 0 15px;">
 					<a href="login.php"><span>L</span>ogin</a>
 				</li>
+				<li style="float:right;">
+                                <a href="profile.php"><span>P</span>rofile</a>
+                                </li>
 				<li style="float:right">
 					<a href="register.php"><span>R</span>egsiter</a>
 
