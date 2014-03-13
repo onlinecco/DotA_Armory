@@ -7,7 +7,7 @@ $result = $d2->getMatches();
 
 //$result = $d2->getHeroList();
 
-//	print_r($element)
+//	print_r($result);
 foreach($result as $element)
 {
 	$matchid = $element["match_id"];
