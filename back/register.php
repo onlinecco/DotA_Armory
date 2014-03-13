@@ -56,15 +56,6 @@ if (!preg_match("/^[0-9]*$/",$website))
   $websiteErr = "Invalid SteamID"; 
   }
 	}
-  if (empty($_POST["comment"]))
-    {$comment = "";}
-  else
-    {$comment = test_input($_POST["comment"]);}
-
-  if (empty($_POST["gender"]))
-    {$genderErr = "Gender is required";}
-  else
-    {$gender = test_input($_POST["gender"]);}
 
 if($pwErr== "" && $nameErr == "" && $emailErr == "" && $genderErr == "" && $websiteErr == "")
 {

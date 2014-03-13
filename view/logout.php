@@ -7,16 +7,20 @@
 </head>
 <body>
 <?php include("header.php");?>
-					<div class="body">
+				<div class="body">
+
 <div class="content">
 
+
 <div class="text">
-
-<?php include("../back/matches.php");?>
-
+You have successfully logged out.
+<?php 
+$_SESSION['isLogin'] = 0;
+$_SESSION['username'] = "";
+?>
+</div>                    
+</div>                    
 </div>
-</div>
-                    </div>
 <?php include("footer.php");?>
 </body>
 </html>

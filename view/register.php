@@ -1,4 +1,5 @@
 <?php 
+include("../back/core.php");
 include("../back/register.php");
 require '../back/class/openid.php';
 try {
@@ -85,12 +86,6 @@ SteamID:</td>
 <td><input size=42 placeholder="Please sign in through Steam using the button at top." id="steamid" <?php if(!empty($steamid))echo "value = " . $steamid;?> type="text" readonly="readonly" name="steamid">*</td>
 </tr><tr><td></td><td><span class="error"><?php echo $websiteErr;?></span></td>
 </tr>
-<tr align="left"><td>Comment:</td><td> <textarea name="comment" rows="5" cols="40"></textarea></td></tr>
-
-<tr align="left"><td>Gender:</td><td>
-<input type="radio" name="gender" value="female">Female
-<input type="radio" name="gender" value="male">Male *</td></tr><tr><td></td><td>
-<span class="error"> <?php echo $genderErr;?></span></td></tr>
 <tr align="left"><td>
 <input type="submit" name="submit" value="Submit"> </td></tr>
 </form>

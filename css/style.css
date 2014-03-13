@@ -11,13 +11,19 @@ form{
 	margin-right: auto;
 }
 .logo{
-	
-	left: 50%;
 	margin-left: 50%;
 	margin-top: 15px;
 	width:100px;
 	height:100px;
 	float:top;
+}
+
+#loginstatus {
+	background-color: black;
+	float: right;
+	border-radius: 5px;
+	margin: 0 50px 0 0;
+	padding: 0px 10px 0px 10px;
 }
 .header {
 position:relative;

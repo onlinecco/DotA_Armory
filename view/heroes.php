@@ -1,3 +1,4 @@
+<?php include("../back/core.php");?>
 <html> 
 <head>
 <meta charset="UTF-8">
@@ -10,7 +11,7 @@
 <div class="content" height=800>
 
 <div class="text" height=800>
-<form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="get">
+<form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
 Hero Name: <input type="text" name="name"><br>
 <input type="submit">
 <br>

@@ -1,5 +1,4 @@
 <?php
-
 include("class/d2api.php");
 
 $d2 = new d2API("76561198047054082");
