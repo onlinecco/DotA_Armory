@@ -3,7 +3,7 @@ include("class/d2api.php");
 
 $d2 = new d2API("76561198047054082");
 
-$result = $d2->getMatches();
+$result = $d2->getMatches("76561198047054082");
 
 //$result = $d2->getHeroList();
 

@@ -37,7 +37,7 @@ General:
 <br>
 </form>
 <?php echo $unErr ?>
-<php include("../back/items.php"); ?>
+<?php include("../back/items.php"); ?>
 
 
 </div>                    

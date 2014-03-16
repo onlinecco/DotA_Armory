@@ -26,6 +26,13 @@ while($row = $test->fetch_array())
 }
 }                                                                       
 
-
+       echo "<br><br>";
+        echo "<form action=\"\" method=\"post\"> ";
+        $test->Get("Items","","WHERE Iname NOT LIKE 'recipe%' AND IID <> '0'");
+        while($row = $test->fetch_array())
+        {
+        echo "<input style=\"margin:0 3px 0 0;display:inline-block;height:64px;margin-bottom:2px;width:85px;background-size:100%\" type=\"image\" src=\"http://cdn.dota2.com/apps/dota2/images/items/" . strtolower($row[3]) . "_lg.png \" value=\"" . $row[3] . "\" name=\"name\">";
+        }
+        echo "</form>";
 
 ?>

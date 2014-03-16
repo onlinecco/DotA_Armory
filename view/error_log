@@ -255,3 +255,8 @@
 [15-Mar-2014 21:58:07 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/dotaarmory/public_html/back/heroes.php on line 36
 [16-Mar-2014 00:40:42 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/dotaarmory/public_html/back/heroes.php on line 41
 [16-Mar-2014 00:45:24 America/Chicago] PHP Fatal error:  Call to a member function Get() on a non-object in /home/dotaarmory/public_html/view/heroes.php on line 34
+[16-Mar-2014 02:59:50 America/Chicago] PHP Fatal error:  Cannot use object of type DB_class as array in /home/dotaarmory/public_html/view/players.php on line 24
+[16-Mar-2014 03:00:12 America/Chicago] PHP Fatal error:  Cannot use object of type DB_class as array in /home/dotaarmory/public_html/view/players.php on line 24
+[16-Mar-2014 03:00:14 America/Chicago] PHP Fatal error:  Cannot use object of type DB_class as array in /home/dotaarmory/public_html/view/players.php on line 24
+[16-Mar-2014 03:00:41 America/Chicago] PHP Fatal error:  Cannot use object of type DB_class as array in /home/dotaarmory/public_html/view/players.php on line 24
+[16-Mar-2014 03:21:38 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/dotaarmory/public_html/view/players.php on line 45
