@@ -10,13 +10,27 @@
 <div class="body" height=800>
 <div class="content" height=800>
 
-<div class="text" height=800>
+<div class="text" align="center" height=800>
 <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
 Hero Name: <input type="text" name="name"><br>
-<input type="submit">
 <br>
-<?php include("../back/heroes.php"); ?>
+Or select by Hero type:
+<br>
+Strength:
+<input type="radio" checked="checked" name="Type" value="Strength" />
+<br />
+Agility:
+<input type="radio" name="Type" value="Agility" />
+<br />
+Intelligence:
+<input type="radio" name="Type" value="Intelligence" />
+<br /><br>
+<input type="submit" value="Search">
+<br>
+</form>
 <?php echo $unErr ?>
+<?php include("../back/heroes.php"); ?>
+</div>
 </div>
 </div>
 </div>

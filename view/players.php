@@ -7,11 +7,14 @@
 </head>
 <body>
 <?php include("header.php");?>
-				<div class="body">
+<div class="body">
 <div class="content">
-<div class="text"></div>
+<div class="text">
+
+
 </div>
-                    </div>
+</div>
+</div>
 <?php include("footer.php");?>
 </body>
 </html>

@@ -198,3 +198,60 @@
 [13-Mar-2014 14:59:26 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/dotaarmory/public_html/back/matches.php on line 11
 [13-Mar-2014 14:59:29 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/dotaarmory/public_html/back/matches.php on line 11
 [13-Mar-2014 14:59:35 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/dotaarmory/public_html/back/matches.php on line 11
+[13-Mar-2014 15:04:24 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/dotaarmory/public_html/back/matches.php on line 11
+[13-Mar-2014 15:05:15 America/Chicago] PHP Warning:  include(class/db.php): failed to open stream: No such file or directory in /home/dotaarmory/public_html/view/items.php on line 1
+[13-Mar-2014 15:05:15 America/Chicago] PHP Warning:  include(): Failed opening 'class/db.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/dotaarmory/public_html/view/items.php on line 1
+[13-Mar-2014 15:05:15 America/Chicago] PHP Fatal error:  Call to a member function Get() on a non-object in /home/dotaarmory/public_html/back/items.php on line 15
+[13-Mar-2014 15:07:12 America/Chicago] PHP Warning:  include(class/db.php): failed to open stream: No such file or directory in /home/dotaarmory/public_html/view/items.php on line 1
+[13-Mar-2014 15:07:12 America/Chicago] PHP Warning:  include(): Failed opening 'class/db.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/dotaarmory/public_html/view/items.php on line 1
+[13-Mar-2014 15:07:12 America/Chicago] PHP Fatal error:  Call to a member function Get() on a non-object in /home/dotaarmory/public_html/back/items.php on line 15
+[13-Mar-2014 15:10:38 America/Chicago] PHP Warning:  include(class/db.php): failed to open stream: No such file or directory in /home/dotaarmory/public_html/view/items.php on line 1
+[13-Mar-2014 15:10:38 America/Chicago] PHP Warning:  include(): Failed opening 'class/db.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/dotaarmory/public_html/view/items.php on line 1
+[13-Mar-2014 15:10:38 America/Chicago] PHP Fatal error:  Call to a member function Get() on a non-object in /home/dotaarmory/public_html/back/items.php on line 15
+[13-Mar-2014 15:10:40 America/Chicago] PHP Warning:  include(class/db.php): failed to open stream: No such file or directory in /home/dotaarmory/public_html/view/items.php on line 1
+[13-Mar-2014 15:10:40 America/Chicago] PHP Warning:  include(): Failed opening 'class/db.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/dotaarmory/public_html/view/items.php on line 1
+[13-Mar-2014 15:10:40 America/Chicago] PHP Fatal error:  Call to a member function Get() on a non-object in /home/dotaarmory/public_html/back/items.php on line 15
+[13-Mar-2014 15:10:41 America/Chicago] PHP Warning:  include(class/db.php): failed to open stream: No such file or directory in /home/dotaarmory/public_html/view/items.php on line 1
+[13-Mar-2014 15:10:41 America/Chicago] PHP Warning:  include(): Failed opening 'class/db.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/dotaarmory/public_html/view/items.php on line 1
+[13-Mar-2014 15:10:41 America/Chicago] PHP Fatal error:  Call to a member function Get() on a non-object in /home/dotaarmory/public_html/back/items.php on line 15
+[13-Mar-2014 15:10:41 America/Chicago] PHP Warning:  include(class/db.php): failed to open stream: No such file or directory in /home/dotaarmory/public_html/view/items.php on line 1
+[13-Mar-2014 15:10:41 America/Chicago] PHP Warning:  include(): Failed opening 'class/db.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/dotaarmory/public_html/view/items.php on line 1
+[13-Mar-2014 15:10:41 America/Chicago] PHP Fatal error:  Call to a member function Get() on a non-object in /home/dotaarmory/public_html/back/items.php on line 15
+[13-Mar-2014 15:10:42 America/Chicago] PHP Warning:  include(class/db.php): failed to open stream: No such file or directory in /home/dotaarmory/public_html/view/items.php on line 1
+[13-Mar-2014 15:10:42 America/Chicago] PHP Warning:  include(): Failed opening 'class/db.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/dotaarmory/public_html/view/items.php on line 1
+[13-Mar-2014 15:10:42 America/Chicago] PHP Fatal error:  Call to a member function Get() on a non-object in /home/dotaarmory/public_html/back/items.php on line 15
+[13-Mar-2014 15:10:46 America/Chicago] PHP Warning:  include(class/db.php): failed to open stream: No such file or directory in /home/dotaarmory/public_html/view/items.php on line 1
+[13-Mar-2014 15:10:46 America/Chicago] PHP Warning:  include(): Failed opening 'class/db.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/dotaarmory/public_html/view/items.php on line 1
+[13-Mar-2014 15:10:46 America/Chicago] PHP Fatal error:  Call to a member function Get() on a non-object in /home/dotaarmory/public_html/back/items.php on line 15
+[13-Mar-2014 15:10:49 America/Chicago] PHP Warning:  include(class/db.php): failed to open stream: No such file or directory in /home/dotaarmory/public_html/view/items.php on line 1
+[13-Mar-2014 15:10:49 America/Chicago] PHP Warning:  include(): Failed opening 'class/db.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/dotaarmory/public_html/view/items.php on line 1
+[13-Mar-2014 15:10:49 America/Chicago] PHP Fatal error:  Call to a member function Get() on a non-object in /home/dotaarmory/public_html/back/items.php on line 15
+[13-Mar-2014 15:10:50 America/Chicago] PHP Warning:  include(class/db.php): failed to open stream: No such file or directory in /home/dotaarmory/public_html/view/items.php on line 1
+[13-Mar-2014 15:10:50 America/Chicago] PHP Warning:  include(): Failed opening 'class/db.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/dotaarmory/public_html/view/items.php on line 1
+[13-Mar-2014 15:10:50 America/Chicago] PHP Fatal error:  Call to a member function Get() on a non-object in /home/dotaarmory/public_html/back/items.php on line 15
+[13-Mar-2014 15:11:24 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/dotaarmory/public_html/back/matches.php on line 11
+[13-Mar-2014 15:11:27 America/Chicago] PHP Warning:  include(class/db.php): failed to open stream: No such file or directory in /home/dotaarmory/public_html/view/items.php on line 1
+[13-Mar-2014 15:11:27 America/Chicago] PHP Warning:  include(): Failed opening 'class/db.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/dotaarmory/public_html/view/items.php on line 1
+[13-Mar-2014 15:11:27 America/Chicago] PHP Fatal error:  Call to a member function Get() on a non-object in /home/dotaarmory/public_html/back/items.php on line 15
+[13-Mar-2014 15:12:10 America/Chicago] PHP Fatal error:  Call to a member function Get() on a non-object in /home/dotaarmory/public_html/back/items.php on line 15
+[13-Mar-2014 15:14:50 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/dotaarmory/public_html/back/matches.php on line 11
+[13-Mar-2014 15:14:53 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/dotaarmory/public_html/back/matches.php on line 11
+[13-Mar-2014 15:15:00 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/dotaarmory/public_html/back/matches.php on line 11
+[13-Mar-2014 15:25:36 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/dotaarmory/public_html/back/items.php on line 33
+[13-Mar-2014 16:18:12 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/dotaarmory/public_html/back/heroes.php on line 20
+[13-Mar-2014 16:19:10 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/dotaarmory/public_html/back/heroes.php on line 20
+[13-Mar-2014 16:19:12 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/dotaarmory/public_html/back/heroes.php on line 20
+[13-Mar-2014 16:19:13 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/dotaarmory/public_html/back/heroes.php on line 20
+[13-Mar-2014 16:19:14 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/dotaarmory/public_html/back/heroes.php on line 20
+[13-Mar-2014 16:19:15 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/dotaarmory/public_html/back/heroes.php on line 20
+[13-Mar-2014 16:19:15 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/dotaarmory/public_html/back/heroes.php on line 20
+[13-Mar-2014 16:19:16 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/dotaarmory/public_html/back/heroes.php on line 20
+[13-Mar-2014 20:53:18 America/Chicago] PHP Parse error:  syntax error, unexpected ',' in /home/dotaarmory/public_html/view/heroes.php on line 39
+[13-Mar-2014 20:53:49 America/Chicago] PHP Parse error:  syntax error, unexpected 'image' (T_STRING), expecting ',' or ';' in /home/dotaarmory/public_html/view/heroes.php on line 42
+[14-Mar-2014 00:24:21 America/Chicago] PHP Parse error:  syntax error, unexpected 'margin' (T_STRING), expecting ',' or ';' in /home/dotaarmory/public_html/view/heroes.php on line 51
+[15-Mar-2014 12:59:13 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/dotaarmory/public_html/back/matches.php on line 11
+[15-Mar-2014 21:47:47 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/dotaarmory/public_html/back/heroes.php on line 12
+[15-Mar-2014 21:48:34 America/Chicago] PHP Parse error:  syntax error, unexpected 'heroimg' (T_STRING), expecting ',' or ';' in /home/dotaarmory/public_html/back/heroes.php on line 12
+[15-Mar-2014 21:58:07 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/dotaarmory/public_html/back/heroes.php on line 36
+[16-Mar-2014 00:40:42 America/Chicago] PHP Parse error:  syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING) in /home/dotaarmory/public_html/back/heroes.php on line 41
+[16-Mar-2014 00:45:24 America/Chicago] PHP Fatal error:  Call to a member function Get() on a non-object in /home/dotaarmory/public_html/view/heroes.php on line 34

@@ -33,7 +33,14 @@ height: 170px;
 background-color: #333;
 	
 }
+.heropro {
+	border: 2px solid;
+	border-color: white;
 
+}
+table { 
+	border-collapse: collapse;
+ }
 ul {
 padding: 10px 0 0 0;
 	

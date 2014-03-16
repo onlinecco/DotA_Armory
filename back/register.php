@@ -48,7 +48,7 @@ if (!preg_match("/([\w\-]+\@[\w\-]+\.[\w\-]+)/",$email))
 	}
 }
   if (empty($_POST["steamid"]))
-    {$website = "";}
+    {$websiteErr = "SteamID is required";}
   else
     {$website = test_input($_POST["steamid"]);
 if (!preg_match("/^[0-9]*$/",$website))
