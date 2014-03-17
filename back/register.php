@@ -60,7 +60,7 @@ if (!preg_match("/^[0-9]*$/",$website))
 if($pwErr== "" && $nameErr == "" && $emailErr == "" && $genderErr == "" && $websiteErr == "")
 {
 	$box->add("Users","`Username`,`Password`,`SteamID`,`Email`","'".$name."','".$password."','".$website."','".$email."'");
-
+	$registerinfo = "<h1>You have registered successfully.</h1>";
 }
 
 }

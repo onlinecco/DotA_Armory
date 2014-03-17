@@ -260,3 +260,28 @@
 [16-Mar-2014 03:00:14 America/Chicago] PHP Fatal error:  Cannot use object of type DB_class as array in /home/dotaarmory/public_html/view/players.php on line 24
 [16-Mar-2014 03:00:41 America/Chicago] PHP Fatal error:  Cannot use object of type DB_class as array in /home/dotaarmory/public_html/view/players.php on line 24
 [16-Mar-2014 03:21:38 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/dotaarmory/public_html/view/players.php on line 45
+[16-Mar-2014 16:27:39 America/Chicago] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH) in /home/dotaarmory/public_html/back/matches.php on line 23
+[16-Mar-2014 17:32:08 America/Chicago] PHP Warning:  Illegal string offset 'SteamID' in /home/dotaarmory/public_html/back/login.php on line 52
+[17-Mar-2014 14:48:48 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/dotaarmory/public_html/back/matches.php on line 27
+[17-Mar-2014 14:50:46 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/dotaarmory/public_html/back/matches.php on line 27
+[17-Mar-2014 14:51:31 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/dotaarmory/public_html/back/matches.php on line 27
+[17-Mar-2014 14:51:45 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/dotaarmory/public_html/back/matches.php on line 27
+[17-Mar-2014 14:52:39 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/dotaarmory/public_html/back/matches.php on line 27
+[17-Mar-2014 14:53:03 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/dotaarmory/public_html/back/matches.php on line 27
+[17-Mar-2014 14:57:24 America/Chicago] PHP Warning:  mysql_connect(): Lost connection to MySQL server at 'reading initial communication packet', system error: 111 in /home/dotaarmory/public_html/back/class/db.php on line 37
+[17-Mar-2014 14:57:32 America/Chicago] PHP Warning:  mysql_connect(): Lost connection to MySQL server at 'reading initial communication packet', system error: 111 in /home/dotaarmory/public_html/back/class/db.php on line 37
+[17-Mar-2014 14:57:34 America/Chicago] PHP Warning:  mysql_connect(): Lost connection to MySQL server at 'reading initial communication packet', system error: 111 in /home/dotaarmory/public_html/back/class/db.php on line 37
+[17-Mar-2014 14:57:36 America/Chicago] PHP Warning:  mysql_connect(): Lost connection to MySQL server at 'reading initial communication packet', system error: 111 in /home/dotaarmory/public_html/back/class/db.php on line 37
+[17-Mar-2014 14:57:39 America/Chicago] PHP Warning:  mysql_connect(): Lost connection to MySQL server at 'reading initial communication packet', system error: 111 in /home/dotaarmory/public_html/back/class/db.php on line 37
+[17-Mar-2014 14:57:40 America/Chicago] PHP Warning:  mysql_connect(): Lost connection to MySQL server at 'reading initial communication packet', system error: 111 in /home/dotaarmory/public_html/back/class/db.php on line 37
+[17-Mar-2014 15:45:01 America/Chicago] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, null given in /home/dotaarmory/public_html/back/class/db.php on line 115
+[17-Mar-2014 15:50:37 America/Chicago] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, null given in /home/dotaarmory/public_html/back/class/db.php on line 115
+[17-Mar-2014 16:34:43 America/Chicago] PHP Warning:  mysql_connect(): Lost connection to MySQL server at 'reading initial communication packet', system error: 111 in /home/dotaarmory/public_html/back/class/db.php on line 37
+[17-Mar-2014 16:34:52 America/Chicago] PHP Warning:  mysql_connect(): Lost connection to MySQL server at 'reading initial communication packet', system error: 111 in /home/dotaarmory/public_html/back/class/db.php on line 37
+[17-Mar-2014 16:35:00 America/Chicago] PHP Warning:  mysql_connect(): Lost connection to MySQL server at 'reading initial communication packet', system error: 111 in /home/dotaarmory/public_html/back/class/db.php on line 37
+[17-Mar-2014 16:35:02 America/Chicago] PHP Warning:  mysql_connect(): Lost connection to MySQL server at 'reading initial communication packet', system error: 111 in /home/dotaarmory/public_html/back/class/db.php on line 37
+[17-Mar-2014 17:17:03 America/Chicago] PHP Warning:  mysql_connect(): Lost connection to MySQL server at 'reading initial communication packet', system error: 111 in /home/dotaarmory/public_html/back/class/db.php on line 37
+[17-Mar-2014 17:18:40 America/Chicago] PHP Warning:  mysql_connect(): Lost connection to MySQL server at 'reading initial communication packet', system error: 111 in /home/dotaarmory/public_html/back/class/db.php on line 37
+[17-Mar-2014 17:47:03 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/dotaarmory/public_html/back/profile.php on line 117
+[17-Mar-2014 17:49:40 America/Chicago] PHP Warning:  Illegal string offset 'result' in /home/dotaarmory/public_html/back/class/d2api.php on line 57
+[17-Mar-2014 17:49:40 America/Chicago] PHP Warning:  Illegal string offset 'matches' in /home/dotaarmory/public_html/back/class/d2api.php on line 58

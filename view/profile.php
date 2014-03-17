@@ -10,7 +10,24 @@
 <div class="body">
 <div class="content">
 <div class="text">
-Do you want to delete the account?
+<?php if(isset($_SESSION['isLogin'])&&$_SESSION['isLogin']==1)
+	{
+		
+		include('../back/profile.php');
+		if(empty($profileinfo))
+		{
+			include('profileinfo.php');
+		}
+		else
+		{
+			echo $profileinfo;
+		}	
+	}
+	else
+	{
+		echo "You need to login first.";
+	}
+?>
 </div>                    
 </div>                    
 </div>

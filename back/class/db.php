@@ -44,13 +44,13 @@ private function connect(){
 */
 public function query($sql){
 	if($sql==""){
-		$this->show_error("sql语句错误：","sql查询语句为空");
+		$this->show_error("sql command error：","sql command is empty");
 	}
 	$this->sql=$sql;
 	$result=mysql_query($this->sql);
 	if(!$result){
 		if($this->show_error) 
-			$this->show_error("sql语句错误：",$this->sql); // 调试中使用，sql语句出错时会自动打印出来
+			$this->show_error("sql command error：",$this->sql); // 调试中使用，sql语句出错时会自动打印出来
 	}
 	else{
 		$this->result=$result;

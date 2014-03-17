@@ -4,6 +4,12 @@
 <meta charset="UTF-8">
 <title>DotA 2 Armory</title>
 <link rel="stylesheet" href="../css/style.css" type="text/css">
+<script language="javascript" type="text/javascript">
+  function resizeIframe(obj) {
+	var weq= document.getElementById('haha');
+    obj.style.height = weq.contentWindow.document.body.scrollHeight + 'px';
+  }
+</script>
 </head>
 <body>
 <?php include("header.php"); ?>

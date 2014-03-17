@@ -90,6 +90,7 @@ SteamID:</td>
 <input type="submit" name="submit" value="Submit"> </td></tr>
 </form>
 </table>
+<?php echo $registerinfo;?>
                  </div>   </div></div>
 
 <?php include("footer.php");?>

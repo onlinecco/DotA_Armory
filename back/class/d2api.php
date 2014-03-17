@@ -26,9 +26,9 @@ class d2API
 
         	$r = curl_exec($ch);
         	curl_close($ch);
-		$r = json_decode($r,true);
-		
-		return $r;	
+		$result = json_decode($r,true);
+		if(is_array($result)) return $result;
+		else return $r;	
 	}
 
 	public function getHeroList()
@@ -53,9 +53,11 @@ class d2API
 	{
 		$url = "https://api.steampowered.com/IDOTA2Match_570/GetMatchHistory/V001/?key=9FCDE5B7BC2797BCE4F68F7892AB26E8&account_id=" . $id;
 		$r = $this->request($url);
-		
-		$r = $r['result'];
-		$r = $r['matches'];
+		if(is_array($r))
+		{
+			$r = $r['result'];
+			$r = $r['matches'];
+		}
 		return $r;
 	}
 	

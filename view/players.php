@@ -18,15 +18,25 @@ Users currently in game:
 <?php 
 $d2 = new d2api;
 $box = new DB_class;
-
+$online = array();
 $box->Get("Users","SteamID","");
 while($row = $box->fetch_array())
 {
+	$p = array();
 	$result = $d2->getPlayerInfo($row['SteamID']);
 
 	if(isset($result['gameid']) && $result['gameid'] == '570')
 	{
 		echo "<div class=\"userpro\"><img src=\"" . $result["avatar"]."\"></img>" . $result['personaname']."</div>";
+	}
+	else
+	{
+		if( !isset($result['gameid']) && $result['personastate'] == '1')
+		{
+			$p[0] = $result['personaname'];
+			$p[1] = $result['avatar'];
+			array_push($online,$p);
+		}
 	}
 }
 
@@ -35,15 +45,9 @@ while($row = $box->fetch_array())
 Users currently online:
 <br>
 <?php
-$box->Get("Users","SteamID","");
-while($row = $box->fetch_array())
+foreach($online as $content)
 {
-	$result = $d2->getPlayerInfo($row['SteamID']);
-
-	if(!isset($result['gameid']) && $result['personastate'] == '1')
-	{
-		echo "<div class=\"userpro\"><img src=\"" . $result["avatar"]."\"></img>"  . $result['personaname']. "</div>";
-	}
+	echo "<div class=\"userpro\"><img src=\"" . $content[1] ."\"></img>"  . $content[0] . "</div>";
 }
 ?>
 </div>

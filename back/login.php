@@ -37,18 +37,19 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
 
 	if($unErr == "" && $pwErr == "")
 	{
-		$pass = $box->Get("Users","Password","WHERE `username`= '" . $username . "' LIMIT 1");
+		$pass = $box->Get("Users","`Password`,`SteamID`","WHERE `username`= '" . $username . "' LIMIT 1");
 		if($pass == FALSE)
 			$logininfo = "The username does not exist.";
 		else
 		{	
 			$pass = $box->fetch_array();
-			$pass = $pass['Password'];
+			$passp = $pass['Password'];
 		}
-		if($pass == $password)
+		if($passp == $password)
 		{
 			$_SESSION['username'] = $username;
 			$_SESSION['isLogin'] = 1;
+			$_SESSION['steamid'] = $pass['SteamID'];
 			$logininfo = "You have succesfully logged in.";
 		}
 		else $logininfo =  "password is wrong";
