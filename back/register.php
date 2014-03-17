@@ -59,8 +59,15 @@ if (!preg_match("/^[0-9]*$/",$website))
 
 if($pwErr== "" && $nameErr == "" && $emailErr == "" && $genderErr == "" && $websiteErr == "")
 {
-	$box->add("Users","`Username`,`Password`,`SteamID`,`Email`","'".$name."','".$password."','".$website."','".$email."'");
-	$registerinfo = "<h1>You have registered successfully.</h1>";
+	$query = $box->add("Users","`Username`,`Password`,`SteamID`,`Email`","'".$name."','".$password."','".$website."','".$email."'");
+	if($query)
+	{
+		$_SESSION['username'] = $name;
+		$_SESSION['isLogin'] = '1';
+		$_SESSION['steamid'] = $website;
+		$registerinfo = "<h1>You have registered successfully.</h1>";
+	}
+	else $registerinfo = "<h1>Please try again later.</h1>";
 }
 
 }

@@ -15,8 +15,9 @@
 <div class="text">
 You have successfully logged out.
 <?php 
-$_SESSION['isLogin'] = 0;
+$_SESSION['isLogin'] = "";
 $_SESSION['username'] = "";
+$_SESSION['steamid'] = "";
 ?>
 </div>                    
 </div>                    

@@ -108,6 +108,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
 		{ 
 			$_SESSION['username'] = "";
 			$_SESSION['isLogin'] = "";
+			$_SESSION['steamid'] = "";
 			$profileinfo = "Account has been deleted";	
 		}
 		else
