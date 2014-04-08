@@ -1,55 +1,42 @@
 <?php include("../back/core.php");?>
-<?php include("../back/class/d2api.php");?>
-<?php include("../back/class/db.php");?>
 <html>
 <head>
 <meta charset="UTF-8">
 <title>DotA 2 Armory</title>
 <link rel="stylesheet" href="../css/style.css" type="text/css">
+<script src="../css/jquery-1.11.0.min.js"></script>
 </head>
 <body>
 <?php include("header.php");?>
 <div class="body">
 <div class="content">
-<div class="text">
-
-Users currently in game:
-<br>
-<?php 
-$d2 = new d2api;
-$box = new DB_class;
-$online = array();
-$box->Get("Users","SteamID","");
-while($row = $box->fetch_array())
-{
-	$p = array();
-	$result = $d2->getPlayerInfo($row['SteamID']);
-
-	if(isset($result['gameid']) && $result['gameid'] == '570')
-	{
-		echo "<div class=\"userpro\"><img src=\"" . $result["avatar"]."\"></img>" . $result['personaname']."</div>";
-	}
-	else
-	{
-		if( !isset($result['gameid']) && $result['personastate'] == '1')
-		{
-			$p[0] = $result['personaname'];
-			$p[1] = $result['avatar'];
-			array_push($online,$p);
+<div class="text" id="hehe">
+<script language="javascript" charset="utf-8">
+$.ajax({
+		url: '../back/players.php',
+		type: 'POST',
+		data:{},
+		dataType: 'json',
+		timeout: 8000,
+		error: function(data){
+			alert("Please try again later");
+		},
+		success: function(data){
+			document.getElementById('hehe').innerHTML += "Ingame Users:<br>";
+			for(var i = 0;i<data[0].length;i++)
+					document.getElementById('hehe').innerHTML += "<a href=\"steam://friends/add/" + data[0][i][2] +"\"> <div class=\"userpro\"><img src=\"" + data[0][i][1] +"\"></img>"+data[0][i][0]+ "</div></a>";
+			document.getElementById('hehe').innerHTML += "<br>Online Users:<br>";
+			for(var i = 0;i<data[1].length;i++)
+					document.getElementById('hehe').innerHTML += "<a href=\"steam://friends/add/"+data[1][i][2]+ "\"> <div class=\"userpro\"><img src=\"" +data[1][i][1]+  "\"></img>" +data[1][i][0]+  "</div></a>";
+	
 		}
-	}
-}
+});
 
-?>
-<br>
-Users currently online:
-<br>
-<?php
-foreach($online as $content)
-{
-	echo "<div class=\"userpro\"><img src=\"" . $content[1] ."\"></img>"  . $content[0] . "</div>";
-}
-?>
+
+
+
+</script>
+
 </div>
 </div>
 </div>

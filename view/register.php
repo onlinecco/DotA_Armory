@@ -77,6 +77,7 @@ $id = $openid->identity;
 <td><input size=42 type="text" name="email">*</td>
 </tr><tr><td></td><td><span class="error"> <?php echo $emailErr;?></span></td></tr>
 
+<tr><td></td><td>Only UIUC email addresses are allowed.</td></tr>
 <tr align="left"><td>Password:</td>
 <td><input size=42 type="password" name="password">*</td>
 </tr><tr><td></td><td><span class="error"> <?php echo $pwErr;?></span></td></tr>
@@ -86,6 +87,7 @@ SteamID:</td>
 <td><input size=42 placeholder="Please sign in through Steam using the button at top." id="steamid" <?php if(!empty($steamid))echo "value = " . $steamid;?> type="text" readonly="readonly" name="steamid">*</td>
 </tr><tr><td></td><td><span class="error"><?php echo $websiteErr;?></span></td>
 </tr>
+<tr><td></td><td>Please sign in through Steam using the button at top.</td></tr>
 <tr align="left"><td>
 <input type="submit" name="submit" value="Submit"> </td></tr>
 </form>

@@ -285,3 +285,43 @@
 [17-Mar-2014 17:47:03 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/dotaarmory/public_html/back/profile.php on line 117
 [17-Mar-2014 17:49:40 America/Chicago] PHP Warning:  Illegal string offset 'result' in /home/dotaarmory/public_html/back/class/d2api.php on line 57
 [17-Mar-2014 17:49:40 America/Chicago] PHP Warning:  Illegal string offset 'matches' in /home/dotaarmory/public_html/back/class/d2api.php on line 58
+[17-Mar-2014 19:33:58 America/Chicago] PHP Warning:  mysql_connect(): Lost connection to MySQL server at 'reading initial communication packet', system error: 111 in /home/dotaarmory/public_html/back/class/db.php on line 37
+[17-Mar-2014 19:34:08 America/Chicago] PHP Warning:  mysql_connect(): Lost connection to MySQL server at 'reading initial communication packet', system error: 111 in /home/dotaarmory/public_html/back/class/db.php on line 37
+[17-Mar-2014 19:34:16 America/Chicago] PHP Warning:  mysql_connect(): Lost connection to MySQL server at 'reading initial communication packet', system error: 111 in /home/dotaarmory/public_html/back/class/db.php on line 37
+[17-Mar-2014 19:34:18 America/Chicago] PHP Warning:  mysql_connect(): Lost connection to MySQL server at 'reading initial communication packet', system error: 111 in /home/dotaarmory/public_html/back/class/db.php on line 37
+[17-Mar-2014 19:34:19 America/Chicago] PHP Warning:  mysql_connect(): Lost connection to MySQL server at 'reading initial communication packet', system error: 111 in /home/dotaarmory/public_html/back/class/db.php on line 37
+[17-Mar-2014 19:34:21 America/Chicago] PHP Warning:  mysql_connect(): Lost connection to MySQL server at 'reading initial communication packet', system error: 111 in /home/dotaarmory/public_html/back/class/db.php on line 37
+[17-Mar-2014 19:34:30 America/Chicago] PHP Warning:  mysql_connect(): Lost connection to MySQL server at 'reading initial communication packet', system error: 111 in /home/dotaarmory/public_html/back/class/db.php on line 37
+[17-Mar-2014 19:34:32 America/Chicago] PHP Warning:  mysql_connect(): Lost connection to MySQL server at 'reading initial communication packet', system error: 111 in /home/dotaarmory/public_html/back/class/db.php on line 37
+[17-Mar-2014 20:36:55 America/Chicago] PHP Warning:  mysql_connect(): Lost connection to MySQL server at 'reading initial communication packet', system error: 111 in /home/dotaarmory/public_html/back/class/db.php on line 37
+[17-Mar-2014 20:36:58 America/Chicago] PHP Warning:  mysql_connect(): Lost connection to MySQL server at 'reading initial communication packet', system error: 111 in /home/dotaarmory/public_html/back/class/db.php on line 37
+[17-Mar-2014 20:36:59 America/Chicago] PHP Warning:  mysql_connect(): Lost connection to MySQL server at 'reading initial communication packet', system error: 111 in /home/dotaarmory/public_html/back/class/db.php on line 37
+[17-Mar-2014 20:37:01 America/Chicago] PHP Warning:  mysql_connect(): Lost connection to MySQL server at 'reading initial communication packet', system error: 111 in /home/dotaarmory/public_html/back/class/db.php on line 37
+[17-Mar-2014 20:37:03 America/Chicago] PHP Warning:  mysql_connect(): Lost connection to MySQL server at 'reading initial communication packet', system error: 111 in /home/dotaarmory/public_html/back/class/db.php on line 37
+[17-Mar-2014 20:37:25 America/Chicago] PHP Warning:  mysql_connect(): Lost connection to MySQL server at 'reading initial communication packet', system error: 111 in /home/dotaarmory/public_html/back/class/db.php on line 37
+[17-Mar-2014 20:37:27 America/Chicago] PHP Warning:  mysql_connect(): Lost connection to MySQL server at 'reading initial communication packet', system error: 111 in /home/dotaarmory/public_html/back/class/db.php on line 37
+[21-Mar-2014 18:45:39 America/Chicago] PHP Warning:  Illegal string offset 'response' in /home/dotaarmory/public_html/back/class/d2api.php on line 69
+[21-Mar-2014 18:45:39 America/Chicago] PHP Warning:  Illegal string offset 'players' in /home/dotaarmory/public_html/back/class/d2api.php on line 70
+[21-Mar-2014 18:45:39 America/Chicago] PHP Warning:  Illegal string offset 'personastate' in /home/dotaarmory/public_html/view/players.php on line 34
+[21-Mar-2014 18:45:39 America/Chicago] PHP Warning:  Illegal string offset 'response' in /home/dotaarmory/public_html/back/class/d2api.php on line 69
+[21-Mar-2014 18:45:39 America/Chicago] PHP Warning:  Illegal string offset 'players' in /home/dotaarmory/public_html/back/class/d2api.php on line 70
+[21-Mar-2014 18:45:39 America/Chicago] PHP Warning:  Illegal string offset 'personastate' in /home/dotaarmory/public_html/view/players.php on line 34
+[21-Mar-2014 18:45:40 America/Chicago] PHP Warning:  Illegal string offset 'response' in /home/dotaarmory/public_html/back/class/d2api.php on line 69
+[21-Mar-2014 18:45:40 America/Chicago] PHP Warning:  Illegal string offset 'players' in /home/dotaarmory/public_html/back/class/d2api.php on line 70
+[21-Mar-2014 18:45:40 America/Chicago] PHP Warning:  Illegal string offset 'personastate' in /home/dotaarmory/public_html/view/players.php on line 34
+[21-Mar-2014 18:45:40 America/Chicago] PHP Warning:  Illegal string offset 'response' in /home/dotaarmory/public_html/back/class/d2api.php on line 69
+[21-Mar-2014 18:45:40 America/Chicago] PHP Warning:  Illegal string offset 'players' in /home/dotaarmory/public_html/back/class/d2api.php on line 70
+[21-Mar-2014 18:45:40 America/Chicago] PHP Warning:  Illegal string offset 'personastate' in /home/dotaarmory/public_html/view/players.php on line 34
+[21-Mar-2014 18:45:40 America/Chicago] PHP Warning:  Illegal string offset 'response' in /home/dotaarmory/public_html/back/class/d2api.php on line 69
+[21-Mar-2014 18:45:40 America/Chicago] PHP Warning:  Illegal string offset 'players' in /home/dotaarmory/public_html/back/class/d2api.php on line 70
+[21-Mar-2014 18:45:41 America/Chicago] PHP Warning:  Illegal string offset 'personastate' in /home/dotaarmory/public_html/view/players.php on line 34
+[21-Mar-2014 18:45:41 America/Chicago] PHP Warning:  Illegal string offset 'response' in /home/dotaarmory/public_html/back/class/d2api.php on line 69
+[21-Mar-2014 18:45:41 America/Chicago] PHP Warning:  Illegal string offset 'players' in /home/dotaarmory/public_html/back/class/d2api.php on line 70
+[21-Mar-2014 18:45:41 America/Chicago] PHP Warning:  Illegal string offset 'personastate' in /home/dotaarmory/public_html/view/players.php on line 34
+[21-Mar-2014 18:45:41 America/Chicago] PHP Warning:  Illegal string offset 'response' in /home/dotaarmory/public_html/back/class/d2api.php on line 69
+[21-Mar-2014 18:45:41 America/Chicago] PHP Warning:  Illegal string offset 'players' in /home/dotaarmory/public_html/back/class/d2api.php on line 70
+[21-Mar-2014 18:45:41 America/Chicago] PHP Warning:  Illegal string offset 'personastate' in /home/dotaarmory/public_html/view/players.php on line 34
+[07-Apr-2014 20:13:26 America/Chicago] PHP Parse error:  syntax error, unexpected 'array_push' (T_STRING) in /home/dotaarmory/public_html/view/players.php on line 39
+[07-Apr-2014 20:37:09 America/Chicago] PHP Warning:  mysql_connect(): Lost connection to MySQL server at 'reading initial communication packet', system error: 111 in /home/dotaarmory/public_html/back/class/db.php on line 37
+[08-Apr-2014 17:41:51 America/Chicago] PHP Fatal error:  Call to undefined function p() in /home/dotaarmory/public_html/view/players.php on line 17
+[08-Apr-2014 17:42:24 America/Chicago] PHP Fatal error:  Call to undefined function p() in /home/dotaarmory/public_html/view/players.php on line 17

@@ -1,2 +1,14 @@
 [06-Mar-2014 15:16:04 America/Chicago] PHP Warning:  require(openid.php): failed to open stream: No such file or directory in /home/dotaarmory/public_html/back/steamopenid.php on line 2
 [06-Mar-2014 15:16:04 America/Chicago] PHP Fatal error:  require(): Failed opening required 'openid.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/dotaarmory/public_html/back/steamopenid.php on line 2
+[08-Apr-2014 17:48:25 America/Chicago] PHP Fatal error:  Class 'd2api' not found in /home/dotaarmory/public_html/back/players.php on line 4
+[08-Apr-2014 17:49:13 America/Chicago] PHP Fatal error:  Class 'd2api' not found in /home/dotaarmory/public_html/back/players.php on line 4
+[08-Apr-2014 18:12:25 America/Chicago] PHP Parse error:  syntax error, unexpected '$result' (T_VARIABLE) in /home/dotaarmory/public_html/back/players.php on line 40
+[08-Apr-2014 18:13:07 America/Chicago] PHP Parse error:  syntax error, unexpected '$result' (T_VARIABLE) in /home/dotaarmory/public_html/back/players.php on line 40
+[08-Apr-2014 18:13:42 America/Chicago] PHP Parse error:  syntax error, unexpected '$result' (T_VARIABLE) in /home/dotaarmory/public_html/back/players.php on line 40
+[08-Apr-2014 18:13:44 America/Chicago] PHP Parse error:  syntax error, unexpected '$result' (T_VARIABLE) in /home/dotaarmory/public_html/back/players.php on line 40
+[08-Apr-2014 18:15:36 America/Chicago] PHP Parse error:  syntax error, unexpected '$result' (T_VARIABLE) in /home/dotaarmory/public_html/back/players.php on line 40
+[08-Apr-2014 18:15:38 America/Chicago] PHP Parse error:  syntax error, unexpected '$result' (T_VARIABLE) in /home/dotaarmory/public_html/back/players.php on line 40
+[08-Apr-2014 18:16:06 America/Chicago] PHP Parse error:  syntax error, unexpected '$result' (T_VARIABLE) in /home/dotaarmory/public_html/back/players.php on line 40
+[08-Apr-2014 18:16:08 America/Chicago] PHP Parse error:  syntax error, unexpected '$result' (T_VARIABLE) in /home/dotaarmory/public_html/back/players.php on line 40
+[08-Apr-2014 18:19:36 America/Chicago] PHP Parse error:  syntax error, unexpected '$result' (T_VARIABLE) in /home/dotaarmory/public_html/back/players.php on line 40
+[08-Apr-2014 18:20:38 America/Chicago] PHP Fatal error:  Class 'd2api' not found in /home/dotaarmory/public_html/back/players.php on line 2
