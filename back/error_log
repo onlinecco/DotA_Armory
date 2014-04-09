@@ -12,3 +12,37 @@
 [08-Apr-2014 18:16:08 America/Chicago] PHP Parse error:  syntax error, unexpected '$result' (T_VARIABLE) in /home/dotaarmory/public_html/back/players.php on line 40
 [08-Apr-2014 18:19:36 America/Chicago] PHP Parse error:  syntax error, unexpected '$result' (T_VARIABLE) in /home/dotaarmory/public_html/back/players.php on line 40
 [08-Apr-2014 18:20:38 America/Chicago] PHP Fatal error:  Class 'd2api' not found in /home/dotaarmory/public_html/back/players.php on line 2
+[08-Apr-2014 22:23:13 America/Chicago] PHP Warning:  mysql_connect(): Lost connection to MySQL server at 'reading initial communication packet', system error: 111 in /home/dotaarmory/public_html/back/class/db.php on line 37
+[08-Apr-2014 22:23:24 America/Chicago] PHP Warning:  mysql_connect(): Lost connection to MySQL server at 'reading initial communication packet', system error: 111 in /home/dotaarmory/public_html/back/class/db.php on line 37
+[08-Apr-2014 22:24:07 America/Chicago] PHP Warning:  mysql_connect(): Lost connection to MySQL server at 'reading initial communication packet', system error: 111 in /home/dotaarmory/public_html/back/class/db.php on line 37
+[08-Apr-2014 22:24:24 America/Chicago] PHP Warning:  mysql_connect(): Lost connection to MySQL server at 'reading initial communication packet', system error: 111 in /home/dotaarmory/public_html/back/class/db.php on line 37
+[08-Apr-2014 23:56:35 America/Chicago] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, null given in /home/dotaarmory/public_html/back/class/db.php on line 115
+[08-Apr-2014 23:57:33 America/Chicago] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, null given in /home/dotaarmory/public_html/back/class/db.php on line 115
+[08-Apr-2014 23:57:35 America/Chicago] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, null given in /home/dotaarmory/public_html/back/class/db.php on line 115
+[08-Apr-2014 23:57:37 America/Chicago] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, null given in /home/dotaarmory/public_html/back/class/db.php on line 115
+[09-Apr-2014 00:13:10 America/Chicago] PHP Warning:  Division by zero in /home/dotaarmory/public_html/back/stats.php on line 40
+[09-Apr-2014 00:13:10 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/dotaarmory/public_html/back/stats.php on line 48
+[09-Apr-2014 00:13:11 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/dotaarmory/public_html/back/stats.php on line 48
+[09-Apr-2014 00:13:11 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/dotaarmory/public_html/back/stats.php on line 48
+[09-Apr-2014 00:13:12 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/dotaarmory/public_html/back/stats.php on line 48
+[09-Apr-2014 00:13:12 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/dotaarmory/public_html/back/stats.php on line 48
+[09-Apr-2014 00:13:13 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/dotaarmory/public_html/back/stats.php on line 48
+[09-Apr-2014 00:13:13 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/dotaarmory/public_html/back/stats.php on line 48
+[09-Apr-2014 00:14:39 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/dotaarmory/public_html/back/stats.php on line 51
+[09-Apr-2014 00:14:40 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/dotaarmory/public_html/back/stats.php on line 51
+[09-Apr-2014 00:14:40 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/dotaarmory/public_html/back/stats.php on line 51
+[09-Apr-2014 00:14:40 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/dotaarmory/public_html/back/stats.php on line 51
+[09-Apr-2014 00:14:41 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/dotaarmory/public_html/back/stats.php on line 51
+[09-Apr-2014 00:14:41 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/dotaarmory/public_html/back/stats.php on line 51
+[09-Apr-2014 00:14:42 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/dotaarmory/public_html/back/stats.php on line 51
+[09-Apr-2014 00:16:02 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/dotaarmory/public_html/back/stats.php on line 52
+[09-Apr-2014 00:16:03 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/dotaarmory/public_html/back/stats.php on line 52
+[09-Apr-2014 00:16:03 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/dotaarmory/public_html/back/stats.php on line 52
+[09-Apr-2014 00:16:04 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/dotaarmory/public_html/back/stats.php on line 52
+[09-Apr-2014 00:16:04 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/dotaarmory/public_html/back/stats.php on line 52
+[09-Apr-2014 00:16:05 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/dotaarmory/public_html/back/stats.php on line 52
+[09-Apr-2014 00:16:05 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/dotaarmory/public_html/back/stats.php on line 52
+[09-Apr-2014 00:30:49 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/dotaarmory/public_html/back/stats.php on line 88
+[09-Apr-2014 01:03:22 America/Chicago] PHP Fatal error:  Call to undefined function data() in /home/dotaarmory/public_html/back/stats.php on line 31
+[09-Apr-2014 01:08:56 America/Chicago] PHP Parse error:  syntax error, unexpected '$detail' (T_VARIABLE), expecting ',' or ';' in /home/dotaarmory/public_html/back/stats.php on line 39
+[09-Apr-2014 01:09:45 America/Chicago] PHP Parse error:  syntax error, unexpected 'G' (T_STRING) in /home/dotaarmory/public_html/back/stats.php on line 39

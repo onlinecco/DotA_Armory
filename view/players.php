@@ -11,7 +11,8 @@
 <div class="body">
 <div class="content">
 <div class="text" id="hehe">
-<div style="display:none;" id="wait"></div>
+
+<img id="wait" src="../images/loading2.gif"></img>
 <script language="javascript" charset="utf-8">
 $("#wait").show(); 
 $.ajax({
@@ -25,7 +26,7 @@ $.ajax({
 		},
 		success: function(data){
 $("#wait").hide(); 
-			document.getElementById('hehe').innerHTML += "Ingame Users:<br>";
+			document.getElementById('hehe').innerHTML += "In-game Users:<br>";
 			for(var i = 0;i<data[0].length;i++)
 					document.getElementById('hehe').innerHTML += "<a href=\"steam://friends/add/" + data[0][i][2] +"\"> <div class=\"userpro\"><img src=\"" + data[0][i][1] +"\"></img>"+data[0][i][0]+ "</div></a>";
 			document.getElementById('hehe').innerHTML += "<br>Online Users:<br>";

@@ -22,7 +22,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
  		}
 	}
 
-  	if (empty($_POST["password"]))
+  	if (!isset($_POST["password"]))
     	{
 		$pwErr = "Password is required";
 	}

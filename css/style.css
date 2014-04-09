@@ -2,17 +2,11 @@
 /* CSS Document */
 #wait {
 position:fixed;
-top:50%;
+top:60%;
 left:50%;
-background-color:#dbf4f7;
-background-image:url('../images/loading.gif');
 background-repeat:no-repeat;
 z-index:100; 
 
-			        /* alpha settings for browsers */
-opacity: 0.9;
-filter: alpha(opacity=90);
--moz-opacity: 0.9;
 }
 
 body {

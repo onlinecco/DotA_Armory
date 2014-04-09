@@ -71,5 +71,13 @@ class d2API
 		$r = $r[0];
 		return $r;
 	}
+
+	public function getMatchDetail($id)
+	{
+		$url = "https://api.steampowered.com/IDOTA2Match_570/GetMatchDetails/V001/?key=9FCDE5B7BC2797BCE4F68F7892AB26E8&match_id=" . $id;
+		$r = $this->request($url);
+		$r = $r['result'];
+		return $r; 
+	}
 }
 ?>

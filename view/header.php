@@ -14,6 +14,9 @@
 				<li style="float:left;">
 					<a href="matches.php"><span>M</span>atches</a>
 				</li>
+				<li style="float:left;">
+					<a href="stats.php"><span>S</span>tats</a>
+				</li>
 				<li style="float:right;margin: 0 100px 0 15px;">
 					<a href="login.php"><span>L</span>ogin</a>
 				</li>

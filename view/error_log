@@ -325,3 +325,4 @@
 [07-Apr-2014 20:37:09 America/Chicago] PHP Warning:  mysql_connect(): Lost connection to MySQL server at 'reading initial communication packet', system error: 111 in /home/dotaarmory/public_html/back/class/db.php on line 37
 [08-Apr-2014 17:41:51 America/Chicago] PHP Fatal error:  Call to undefined function p() in /home/dotaarmory/public_html/view/players.php on line 17
 [08-Apr-2014 17:42:24 America/Chicago] PHP Fatal error:  Call to undefined function p() in /home/dotaarmory/public_html/view/players.php on line 17
+[08-Apr-2014 22:24:45 America/Chicago] PHP Warning:  mysql_connect(): Lost connection to MySQL server at 'reading initial communication packet', system error: 111 in /home/dotaarmory/public_html/back/class/db.php on line 37
