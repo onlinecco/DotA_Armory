@@ -10,7 +10,7 @@
 <?php include("header.php");?>
 <div class="body">
 <div class="content">
-<div class="text" id="hehe">
+<div class="text" align="center" id="hehe">
 
 <img id="wait" src="../images/loading2.gif"></img>
 <script language="javascript" charset="utf-8">
@@ -20,19 +20,21 @@ $.ajax({
 		type: 'POST',
 		data:{},
 		dataType: 'json',
-		timeout: 8000,
 		error: function(data){
 			alert("Please try again later");
 		},
 		success: function(data){
-$("#wait").hide(); 
+$("#wait").hide();
+if(jQuery.isEmptyObject(data)) document.getElementById('hehe').innerHTML += "Everyone is offline!<br>";
+			else
+			{
 			document.getElementById('hehe').innerHTML += "In-game Users:<br>";
 			for(var i = 0;i<data[0].length;i++)
 					document.getElementById('hehe').innerHTML += "<a href=\"steam://friends/add/" + data[0][i][2] +"\"> <div class=\"userpro\"><img src=\"" + data[0][i][1] +"\"></img>"+data[0][i][0]+ "</div></a>";
-			document.getElementById('hehe').innerHTML += "<br>Online Users:<br>";
+			document.getElementById('hehe').innerHTML += "<br><br><br>Online Users:<br>";
 			for(var i = 0;i<data[1].length;i++)
 					document.getElementById('hehe').innerHTML += "<a href=\"steam://friends/add/"+data[1][i][2]+ "\"> <div class=\"userpro\"><img src=\"" +data[1][i][1]+  "\"></img>" +data[1][i][0]+  "</div></a>";
-	
+			}
 		}
 });
 

@@ -46,3 +46,6 @@
 [09-Apr-2014 01:03:22 America/Chicago] PHP Fatal error:  Call to undefined function data() in /home/dotaarmory/public_html/back/stats.php on line 31
 [09-Apr-2014 01:08:56 America/Chicago] PHP Parse error:  syntax error, unexpected '$detail' (T_VARIABLE), expecting ',' or ';' in /home/dotaarmory/public_html/back/stats.php on line 39
 [09-Apr-2014 01:09:45 America/Chicago] PHP Parse error:  syntax error, unexpected 'G' (T_STRING) in /home/dotaarmory/public_html/back/stats.php on line 39
+[09-Apr-2014 16:36:29 America/Chicago] PHP Warning:  mysql_connect(): Lost connection to MySQL server at 'reading initial communication packet', system error: 111 in /home/dotaarmory/public_html/back/class/db.php on line 37
+[09-Apr-2014 16:36:32 America/Chicago] PHP Warning:  mysql_connect(): Lost connection to MySQL server at 'reading initial communication packet', system error: 111 in /home/dotaarmory/public_html/back/class/db.php on line 37
+[09-Apr-2014 16:36:40 America/Chicago] PHP Warning:  mysql_connect(): Lost connection to MySQL server at 'reading initial communication packet', system error: 111 in /home/dotaarmory/public_html/back/class/db.php on line 37

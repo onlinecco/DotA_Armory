@@ -10,15 +10,17 @@ $coords = array();
 $box->Get("Users","","WHERE `Username`='" . $_SESSION['username']."'");
 if($row = $box->fetch_array())
 {
+	$p = array();
+        $result = $d2->getPlayerInfo($row['SteamID']);
+
+        $p[0] = $result['personaname'];
+       	$p[1] = $result['avatarmedium'];
+       	$p[2] = $row['SteamID'];
+      	array_push($data,$p);
+
 	if(abs($row['lastupdate'] - time()) > 3600*12 )
 	{
-        	$p = array();
-        	$result = $d2->getPlayerInfo($row['SteamID']);
-
-                	        $p[0] = $result['personaname'];
-                        	$p[1] = $result['avatar'];
-                        	$p[2] = $row['SteamID'];
-                        	array_push($data,$p);
+        	
 
                $result = $d2->getMatches($_SESSION['steamid']);
 
@@ -38,7 +40,7 @@ if($row = $box->fetch_array())
 					if($total == 0) $winrate = 0;
 					else $winrate = $win/$total;
 					$coords[$lastday]=$winrate;
-//					echo "winrate of day" . $lastday. "is:". $winrate ."<br>";
+			//		echo "winrate of day" . $lastday. "is:". $winrate ."<br>";
 					$lastday = $lastday + 1;
 					$curTime = $curTime - 3600*24;
 					$win = 0;
@@ -77,11 +79,36 @@ if($row = $box->fetch_array())
 				}
         		}
         	}
- 
-	}
-	//display
-	{
+		//check if it exists
+		//yes-> set
+		//no-> add	
+		$box->Get("Winrate","","WHERE `Steamid`='" . $_SESSION['steamid'] . "'");
+		if(!($row = $box->fetch_array()))
+		{
+			//add
+			$box->Add("Winrate","`Steamid`,`day0`,`day1`,`day2`,`day3`,`day4`,`day5`,`day6`","'".$_SESSION['steamid']."','".$coords[0] ."','".$coords[1]."','".$coords[2]."','".$coords[3]."','".$coords[4]."','".$coords[5]."','".$coords[6]."'");
 
+		}
+		else
+		{
+			//set
+			$box->Set("Winrate","`day0`='" .$coords[0]."',`day1`='".$coords[1] ."',`day2`='".$coords[2]."',`day3`='".$coords[3]."',`day4`='".$coords[4]."',`day5`='".$coords[5]."',`day6`='".$coords[6]."'","");
+		}
+		$box->Set("Users","`lastupdate`='".time()."'","WHERE `SteamID`='".$_SESSION['steamid']."'"); 
+	}
+	else
+	{
+		$box->Get("Winrate","","WHERE `Steamid`='" . $_SESSION['steamid']."'");
+		if($row = $box->fetch_array())
+		{
+			array_push($coords,$row['day0']);
+			array_push($coords,$row['day1']);
+			array_push($coords,$row['day2']);
+			array_push($coords,$row['day3']);
+			array_push($coords,$row['day4']);
+			array_push($coords,$row['day5']);
+			array_push($coords,$row['day6']);
+		}
 	}
 }
 
