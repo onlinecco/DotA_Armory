@@ -38,6 +38,7 @@ margin: 0 0 41px 0;
 width: 100%;
 height: 170px;
 background-color: #333;
+background-size: 100%;
 	
 background-image:url("../images/header.png");
 }
@@ -80,7 +81,7 @@ background-color: #F60;
 	height: auto;
 	min-height: 800px;
 	background-color: #000;
-background-image:url("../images/b1.jpg");
+background-image:url("../images/b2.jpg");
 	color: white;
 	
 }
