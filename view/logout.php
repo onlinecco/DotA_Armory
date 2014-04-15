@@ -6,9 +6,10 @@
 <link rel="stylesheet" href="../css/style.css" type="text/css">
 </head>
 <body>
-<?php include("header.php");?>
-				<div class="body">
-
+<?php 
+$no = 1;
+include("header.php");?>
+<div class="body">
 <div class="content">
 
 
@@ -19,6 +20,7 @@ $_SESSION['isLogin'] = "";
 $_SESSION['username'] = "";
 $_SESSION['steamid'] = "";
 ?>
+
 </div>                    
 </div>                    
 </div>

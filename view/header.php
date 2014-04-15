@@ -1,5 +1,5 @@
 <div class="header">
-<?php if(isset($_SESSION['isLogin']) && $_SESSION['isLogin'] == 1) echo "<div id=\"loginstatus\"><p>Hello! " . $_SESSION['username'] .  "! <a href=\"logout.php\">Log out</a></p></div>";?>
+<?php if(isset($_SESSION['isLogin']) && $_SESSION['isLogin'] == 1 && !isset($no)) echo "<div id=\"loginstatus\"><p>Hello! " . $_SESSION['username'] .  "! <a href=\"logout.php\">Log out</a></p></div>";?>
 <a href="../index.php"><img class="logo" src="../images/logo.png"></img></a>
 <ul>
 				<li style="float:left;margin:0 0 0 100px">

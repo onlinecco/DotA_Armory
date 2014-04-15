@@ -59,6 +59,7 @@ legend:{textStyle:  {color:'red'}}
 google.setOnLoadCallback(casd);
 $("#wait").show(); 
 function casd(){
+<?php if(isset($_SESSION['isLogin']) && $_SESSION['isLogin']){?>
 $.ajax({
                 url: '../back/stats.php',
                 type: 'POST',
@@ -80,8 +81,15 @@ $.ajax({
 
                 }
 });
+<?php }else{ echo "$(\"#wait\").hide();
+ 
+			$(\"#wait2\").hide();";?>
+
+			document.getElementById("userinfo").innerHTML += "Please Login first.";
+<?php }?>
 }
 </script>
+
 <div id="hehe"></div>
 </div>                    
 </div>                    

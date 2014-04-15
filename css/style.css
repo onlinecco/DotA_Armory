@@ -18,8 +18,8 @@ form{
 	margin-right: auto;
 }
 .logo{
-	margin-left: 50%;
-	margin-top: 15px;
+	margin-left: 48%;
+	margin-top: 25px;
 	width:100px;
 	height:100px;
 	float:top;
@@ -54,7 +54,7 @@ table {
 	border-collapse: collapse;
  }
 ul {
-padding: 10px 0 0 0;
+padding: 0px 0 0 0;
 	
 }
 ul li{
