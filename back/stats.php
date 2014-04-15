@@ -92,7 +92,7 @@ if($row = $box->fetch_array())
 		else
 		{
 			//set
-			$box->Set("Winrate","`day0`='" .$coords[0]."',`day1`='".$coords[1] ."',`day2`='".$coords[2]."',`day3`='".$coords[3]."',`day4`='".$coords[4]."',`day5`='".$coords[5]."',`day6`='".$coords[6]."'","");
+			$box->Set("Winrate","`day0`='" .$coords[0]."',`day1`='".$coords[1] ."',`day2`='".$coords[2]."',`day3`='".$coords[3]."',`day4`='".$coords[4]."',`day5`='".$coords[5]."',`day6`='".$coords[6]."'","WHERE `Steamid`='".$_SESSION['steamid']."'");
 		}
 		$box->Set("Users","`lastupdate`='".time()."'","WHERE `SteamID`='".$_SESSION['steamid']."'"); 
 	}

@@ -1,0 +1,61 @@
+[15-Apr-2014 02:04:42 America/Chicago] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/dotaarmory/public_html/back/class/db.php on line 115
+[15-Apr-2014 02:09:52 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/dotaarmory/public_html/back/class/db.php on line 50
+[15-Apr-2014 02:09:52 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/dotaarmory/public_html/back/class/db.php on line 50
+[15-Apr-2014 02:09:52 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/dotaarmory/public_html/back/class/db.php on line 50
+[15-Apr-2014 02:09:52 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/dotaarmory/public_html/back/class/db.php on line 50
+[15-Apr-2014 02:09:52 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/dotaarmory/public_html/back/class/db.php on line 50
+[15-Apr-2014 02:09:52 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/dotaarmory/public_html/back/class/db.php on line 50
+[15-Apr-2014 02:09:53 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/dotaarmory/public_html/back/class/db.php on line 50
+[15-Apr-2014 02:09:53 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/dotaarmory/public_html/back/class/db.php on line 50
+[15-Apr-2014 02:09:53 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/dotaarmory/public_html/back/class/db.php on line 50
+[15-Apr-2014 02:09:53 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/dotaarmory/public_html/back/class/db.php on line 50
+[15-Apr-2014 02:09:53 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/dotaarmory/public_html/back/class/db.php on line 50
+[15-Apr-2014 02:09:53 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/dotaarmory/public_html/back/class/db.php on line 50
+[15-Apr-2014 02:10:01 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/dotaarmory/public_html/back/class/db.php on line 50
+[15-Apr-2014 02:10:01 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/dotaarmory/public_html/back/class/db.php on line 50
+[15-Apr-2014 02:10:01 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/dotaarmory/public_html/back/class/db.php on line 50
+[15-Apr-2014 02:10:01 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/dotaarmory/public_html/back/class/db.php on line 50
+[15-Apr-2014 02:10:01 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/dotaarmory/public_html/back/class/db.php on line 50
+[15-Apr-2014 02:10:02 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/dotaarmory/public_html/back/class/db.php on line 50
+[15-Apr-2014 02:17:28 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/dotaarmory/public_html/back/class/db.php on line 50
+[15-Apr-2014 02:17:28 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/dotaarmory/public_html/back/class/db.php on line 50
+[15-Apr-2014 02:17:28 America/Chicago] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, null given in /home/dotaarmory/public_html/back/class/db.php on line 115
+[15-Apr-2014 02:17:28 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/dotaarmory/public_html/back/class/db.php on line 50
+[15-Apr-2014 02:17:28 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/dotaarmory/public_html/back/class/db.php on line 50
+[15-Apr-2014 02:17:28 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/dotaarmory/public_html/back/class/db.php on line 50
+[15-Apr-2014 02:17:28 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/dotaarmory/public_html/back/class/db.php on line 50
+[15-Apr-2014 02:17:35 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/dotaarmory/public_html/back/class/db.php on line 50
+[15-Apr-2014 02:17:35 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/dotaarmory/public_html/back/class/db.php on line 50
+[15-Apr-2014 02:17:35 America/Chicago] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, null given in /home/dotaarmory/public_html/back/class/db.php on line 115
+[15-Apr-2014 02:17:35 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/dotaarmory/public_html/back/class/db.php on line 50
+[15-Apr-2014 02:17:35 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/dotaarmory/public_html/back/class/db.php on line 50
+[15-Apr-2014 02:17:35 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/dotaarmory/public_html/back/class/db.php on line 50
+[15-Apr-2014 02:17:35 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/dotaarmory/public_html/back/class/db.php on line 50
+[15-Apr-2014 02:17:36 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/dotaarmory/public_html/back/class/db.php on line 50
+[15-Apr-2014 02:17:36 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/dotaarmory/public_html/back/class/db.php on line 50
+[15-Apr-2014 02:17:36 America/Chicago] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, null given in /home/dotaarmory/public_html/back/class/db.php on line 115
+[15-Apr-2014 02:17:36 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/dotaarmory/public_html/back/class/db.php on line 50
+[15-Apr-2014 02:17:36 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/dotaarmory/public_html/back/class/db.php on line 50
+[15-Apr-2014 02:17:36 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/dotaarmory/public_html/back/class/db.php on line 50
+[15-Apr-2014 02:17:36 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/dotaarmory/public_html/back/class/db.php on line 50
+[15-Apr-2014 02:17:50 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/dotaarmory/public_html/back/class/db.php on line 50
+[15-Apr-2014 02:17:50 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/dotaarmory/public_html/back/class/db.php on line 50
+[15-Apr-2014 02:17:50 America/Chicago] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, null given in /home/dotaarmory/public_html/back/class/db.php on line 115
+[15-Apr-2014 02:17:50 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/dotaarmory/public_html/back/class/db.php on line 50
+[15-Apr-2014 02:17:50 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/dotaarmory/public_html/back/class/db.php on line 50
+[15-Apr-2014 02:17:50 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/dotaarmory/public_html/back/class/db.php on line 50
+[15-Apr-2014 02:17:50 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/dotaarmory/public_html/back/class/db.php on line 50
+[15-Apr-2014 02:18:06 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/dotaarmory/public_html/back/class/db.php on line 50
+[15-Apr-2014 02:18:06 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/dotaarmory/public_html/back/class/db.php on line 50
+[15-Apr-2014 02:18:06 America/Chicago] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, null given in /home/dotaarmory/public_html/back/class/db.php on line 115
+[15-Apr-2014 02:18:07 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/dotaarmory/public_html/back/class/db.php on line 50
+[15-Apr-2014 02:18:07 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/dotaarmory/public_html/back/class/db.php on line 50
+[15-Apr-2014 02:18:07 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/dotaarmory/public_html/back/class/db.php on line 50
+[15-Apr-2014 02:18:07 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/dotaarmory/public_html/back/class/db.php on line 50
+[15-Apr-2014 02:18:24 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/dotaarmory/public_html/back/class/db.php on line 50
+[15-Apr-2014 02:18:24 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/dotaarmory/public_html/back/class/db.php on line 50
+[15-Apr-2014 02:18:24 America/Chicago] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, null given in /home/dotaarmory/public_html/back/class/db.php on line 115
+[15-Apr-2014 02:18:24 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/dotaarmory/public_html/back/class/db.php on line 50
+[15-Apr-2014 02:18:24 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/dotaarmory/public_html/back/class/db.php on line 50
+[15-Apr-2014 02:18:24 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/dotaarmory/public_html/back/class/db.php on line 50
+[15-Apr-2014 02:18:24 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/dotaarmory/public_html/back/class/db.php on line 50

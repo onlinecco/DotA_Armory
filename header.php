@@ -12,8 +12,11 @@
 					<a href="view/players.php"><span>P</span>layers</a>
 				</li>
 				<li style="float:left;">
-					<a href="view/matches.php"><span>M</span>atches</a>
-				</li style="float:left;">
+					<a href="view/rank.php"><span>R</span>ank</a>
+				</li>
+				<li style="float:left;">
+					<a href="view/stats.php"><span>S</span>tats</a>
+				</li>
 				<li style="float:right;margin: 0 100px 0 15px">
 					<a href="view/login.php"><span>L</span>ogin</a>
 				</li>

@@ -12,7 +12,7 @@
 					<a href="players.php"><span>P</span>layers</a>
 				</li>
 				<li style="float:left;">
-					<a href="matches.php"><span>M</span>atches</a>
+					<a href="rank.php"><span>R</span>ank</a>
 				</li>
 				<li style="float:left;">
 					<a href="stats.php"><span>S</span>tats</a>

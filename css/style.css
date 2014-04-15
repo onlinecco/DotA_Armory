@@ -74,16 +74,20 @@ text-decoration: none;
 ul li:hover{
 background-color: #F60;
 }
+#rank tr td{
+padding: 5px;
+border: 1px solid white;
 
+}
 .body {
 	position: relative;
 	top: -42px;
 	height: auto;
 	min-height: 800px;
 	background-color: #000;
-background-image:url("../images/b2.jpg");
+background-image:url("../images/b4.jpg");
 	color: white;
-	
+background-size: 30%;	
 }
 
 .content {
