@@ -32,7 +32,8 @@ while($row = $box->fetch_array())
 			$total = 0;
         		foreach($result as $element)
         		{
-                		$detail = $d2->getMatchDetail($element['match_id']);
+				echo $element['match_id'];
+				$detail = $d2->getMatchDetail($element['match_id']);
 				if($detail['start_time'] < $curTime){
 					if($total == 0) $winrate = 0;
 					else $winrate = $win/$total;
