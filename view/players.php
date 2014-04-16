@@ -28,12 +28,14 @@ $("#wait").hide();
 if(jQuery.isEmptyObject(data)) document.getElementById('hehe').innerHTML += "Everyone is offline!<br>";
 			else
 			{
-			document.getElementById('hehe').innerHTML += "In-game Users:<br>";
+			var text = "<table id='playerslist'>";
 			for(var i = 0;i<data[0].length;i++)
-					document.getElementById('hehe').innerHTML += "<a href=\"steam://friends/add/" + data[0][i][2] +"\"> <div class=\"userpro\"><img src=\"" + data[0][i][1] +"\"></img>"+data[0][i][0]+ "</div></a>";
-			document.getElementById('hehe').innerHTML += "<br><br><br>Online Users:<br>";
+				text += "<tr><td><a href=\"steam://friends/add/" + data[0][i][2] +"\"> <div class=\"userpro\"><img src=\"" + data[0][i][1] +"\"></img>"+data[0][i][0]+ "</div></a></td><td><div id=\"useringame\">IN GAME</div></td></tr>";
 			for(var i = 0;i<data[1].length;i++)
-					document.getElementById('hehe').innerHTML += "<a href=\"steam://friends/add/"+data[1][i][2]+ "\"> <div class=\"userpro\"><img src=\"" +data[1][i][1]+  "\"></img>" +data[1][i][0]+  "</div></a>";
+				text+= "<tr><td><a href=\"steam://friends/add/"+data[1][i][2]+ "\"> <div class=\"userpro\"><img src=\"" +data[1][i][1]+  "\"></img>" +data[1][i][0]+  "</div></a></td><td><div id=\"useronline\">ONLINE</div></td></tr>";
+			
+			text += "</table>";
+			document.getElementById('hehe').innerHTML += text;
 			}
 		}
 });

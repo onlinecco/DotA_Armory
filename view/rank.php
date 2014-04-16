@@ -26,7 +26,7 @@ $.ajax({
                 },
                 success: function(data){
 			$("#wait").hide();
-			var hahaha = "<table id='rank'><tr><td>Rank</td><td>Player</td><td>Winrate</td></tr>";
+			var hahaha = "<table id='rank'><tr><td algn='center'>Rank</td><td>Player</td><td>Winrate</td></tr>";
 			for(var i = 0;i<data.length;i++)
 			{
 				var i1= i+1;

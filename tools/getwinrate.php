@@ -38,8 +38,15 @@ while($row = $box->fetch_array())
 					else $winrate = $win/$total;
 					$coords[$lastday]=$winrate;
 			//		echo "winrate of day" . $lastday. "is:". $winrate ."<br>";
-					$lastday = $lastday + 1;
-					$curTime = $curTime - 3600*24;
+					                                        $o = 1;
+                                        while($detail['start_time'] < $curTime)
+                                        {
+                                                if($lastday>6) break;
+                                                if($o) $o = 0;
+                                                else $coords[$lastday]=0;
+                                                $lastday = $lastday + 1;
+                                                $curTime = $curTime - 3600*24;
+                                        }
 					$win = 0;
 					$total = 0;
 				}
