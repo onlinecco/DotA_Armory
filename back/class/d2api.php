@@ -60,7 +60,17 @@ class d2API
 		}
 		return $r;
 	}
-	
+	public function getMatchesSkill($id,$skill)
+	{
+		$url = "https://api.steampowered.com/IDOTA2Match_570/GetMatchHistory/V001/?key=9FCDE5B7BC2797BCE4F68F7892AB26E8&account_id=" . $id."&skill=".$skill;
+		$r = $this->request($url);
+		if(is_array($r))
+		{
+			$r = $r['result'];
+			$r = $r['matches'];
+		}
+		return $r;
+	}
 	public function getPlayerInfo($id)
 	{
 		$url = "http://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/?key=9FCDE5B7BC2797BCE4F68F7892AB26E8&steamids=" . $id;

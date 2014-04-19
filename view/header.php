@@ -50,10 +50,11 @@ height: 100px;
 border-bottom: 2px solid black;
 }
 #msend{
+padding-right:10px;
 display: inline-block;
 height: 15px;
-width:15px;
-background-image: url('../images/chat1.png');
+width:7px;
+background-image: url('../images/chat2.png');
 }
 #input{
 	padding-top: 5px;
@@ -61,7 +62,7 @@ background-image: url('../images/chat1.png');
 	padding-bottom: 2px;
 }
 #message{
-display: inline;
+display: inline-block;
 }
 </style>
 
@@ -73,7 +74,7 @@ display: inline;
 	Alice: This website is fantastic!
 	</div>
 	<div id="input">
-	<input id="message" size="18" type="text" name="lastname">
+	<input id="message" size="15" type="text" name="lastname">
 	<div id="msend"></div>
 	</div>
   </div>

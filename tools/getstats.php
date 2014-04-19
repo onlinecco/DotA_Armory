@@ -8,6 +8,12 @@ $data= array();
 
 $box2 = new DB_class;
 $box->Get("Users","","WHERE 1");
+$bestcarry = array();
+$bestganker = array();
+$bestsupport = array();
+$longestgame = array();
+$mostgames = array();
+$mostdeath = array();
 
 //0 is steamid, 1 is the data, 2 is the heroid, 3 is 
 while($row = $box->fetch_array())
@@ -19,6 +25,7 @@ while($row = $box->fetch_array())
        	$p[1] = $result['avatarmedium'];
        	$p[2] = $row['SteamID'];
       	array_push($data,$p);
+	$rank = 0;
 	
         	
 
@@ -73,10 +80,34 @@ while($row = $box->fetch_array())
 					if( $detail['radiant_win'] == 'false')
 					{
 						$win = $win+1;
+						if($detail['lobby_type']=='7')
+						{
+							if($skill = 0)	$rank = $rank +2;
+							if($skill = 1)  $rank=$rank+4;
+							if($skill = 2)	$rank=$rank+6;
+						}
+						if($detail['lobby_type']=='0' || $detail['lobby_type']=='5' || $detail['lobby_type']=='6')
+						{
+							if($skill = 0)	$rank = $rank +1;
+							if($skill = 1)  $rank=$rank+2;
+							if($skill = 2)	$rank=$rank+3;
+						}	
 					}
 					else
 					{
 						//lose
+						if($detail['lobby_type']=='7')
+						{
+							if($skill = 0)	$rank = $rank -2;
+							if($skill = 1)  $rank=$rank-4;
+							if($skill = 2)	$rank=$rank-6;
+						}
+						if($detail['lobby_type']=='0' || $detail['lobby_type']=='5' || $detail['lobby_type']=='6')
+						{
+							if($skill = 0)	$rank = $rank -1;
+							if($skill = 1)  $rank=$rank-2;
+							if($skill = 2)	$rank=$rank-3;
+						}
 					}
 				}
 				else
@@ -84,12 +115,35 @@ while($row = $box->fetch_array())
 					if( $detail['radiant_win'] != 'false')
 					{
 						$win = $win+1;
-
+						if($detail['lobby_type']=='7')
+						{
+							if($skill = 0)	$rank = $rank +2;
+							if($skill = 1)  $rank=$rank+4;
+							if($skill = 2)	$rank=$rank+6;
+						}
+						if($detail['lobby_type']=='0' || $detail['lobby_type']=='5' || $detail['lobby_type']=='6')
+						{
+							if($skill = 0)	$rank = $rank +1;
+							if($skill = 1)  $rank=$rank+2;
+							if($skill = 2)	$rank=$rank+3;
+						}
 					
 					}
 					else
 					{
 						//lose
+						if($detail['lobby_type']=='7')
+						{
+							if($skill = 0)	$rank = $rank -2;
+							if($skill = 1)  $rank=$rank-4;
+							if($skill = 2)	$rank=$rank-6;
+						}
+						if($detail['lobby_type']=='0' || $detail['lobby_type']=='5' || $detail['lobby_type']=='6')
+						{
+							if($skill = 0)	$rank = $rank -1;
+							if($skill = 1)  $rank=$rank-2;
+							if($skill = 2)	$rank=$rank-3;
+						}
 					}
 				}
         		}
