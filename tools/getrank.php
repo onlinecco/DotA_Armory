@@ -42,12 +42,12 @@ while($row = $box->fetch_array())
         		foreach($result as $element)
         		{
 				//echo $element['match_id'];
-				$detail = $d2->getMatchDetail($element['match_id']);
-				if($detail['start_time'] < $curTime){
-					if($total == 0) $winrate = 0;
-					else $winrate = $win/$total;
-					$coords[$lastday]=$winrate;
-			//		echo "winrate of day" . $lastday. "is:". $winrate ."<br>";
+					$detail = $d2->getMatchDetail($element['match_id']);
+					if($detail['start_time'] < $curTime){
+						if($total == 0) $winrate = 0;
+						else $winrate = $win/$total;
+						$coords[$lastday]=$winrate;
+						//		echo "winrate of day" . $lastday. "is:". $winrate ."<br>";
 					                                        $o = 1;
                                         while($detail['start_time'] < $curTime)
                                         {
@@ -57,23 +57,23 @@ while($row = $box->fetch_array())
                                                 $lastday = $lastday + 1;
                                                 $curTime = $curTime - 3600*24;
                                         }
-					$win = 0;
-					$total = 0;
-				}
+						$win = 0;
+						$total = 0;
+					}
 			
-				if($lastday>6) break;
-				$total = $total +1;	
-				$players = $element['players'];
-				foreach($players as $player)
-				{
+					if($lastday>6) break;
+					$total = $total +1;	
+					$players = $element['players'];
+					foreach($players as $player)
+					{
        					$converted = '765'.($player['account_id'] + 61197960265728);
     
-					if($converted == $row['SteamID'])
-					{
-						$playerslot = $player['player_slot'];
-						break;
+						if($converted == $row['SteamID'])
+						{
+							$playerslot = $player['player_slot'];
+							break;
+						}
 					}
-				}
 				
 				if($playerslot < 5)
 				{
