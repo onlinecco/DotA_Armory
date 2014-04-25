@@ -17,6 +17,9 @@
 				<li style="float:left;">
 					<a href="view/stats.php"><span>S</span>tats</a>
 				</li>
+				<li style="float:left;">
+					<a href="view/recommend.php"><span>R</span>ecommendations</a>
+				</li>
 				<li style="float:left;">                                        <a href="view/comp.php"><span>C</span>ompetition</a>
                                 </li>
 				<li style="float:right;margin: 0 100px 0 15px">

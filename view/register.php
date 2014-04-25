@@ -12,50 +12,13 @@ try {
             header('Location: ' . $openid->authUrl());
         }
 ?>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>DotA 2 Armory</title>
-<link rel="stylesheet" href="../css/style.css" type="text/css">
-<script src="../css/jquery-1.11.0.min.js"></script>
-</head>
-<body>
-<?php include("header.php");$steamid = "";?>
-<div class="body">
-<div class="content">
-<div class="text">
 
-<br><br><br>
-<br><br><br>
-<form  align="center" style="padding: 0;margin:0;" action="" method="post">
-<input type="image" src="../images/steamlogin2.png" value="1" name="login">
-</form>
-<br>
 <?php
     } elseif($openid->mode == 'cancel') {
         echo 'User has canceled authentication!';
     } else {
 ?>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>DotA 2 Armory</title>
-<link rel="stylesheet" href="../css/style.css" type="text/css">
-<script src="../css/jquery-1.11.0.min.js"></script>
-</head>
-<body>
-<?php include("header.php");$steamid = "";?>
-<div class="body">
-<div class="content">
-<div class="text">
 
-<?include("../back/register.php");?>
-<br><br><br>
-<br><br><br>
-<form align="center" action="" method="post">
-<input type="image" src="../images/steamlogin2.png" value="1" name="login">
-</form>
-<br>
 <?php
 	if($openid->validate()){
 $id = $openid->identity;	
@@ -68,6 +31,26 @@ $id = $openid->identity;
     echo $e->getMessage();
 }
 ?>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>DotA 2 Armory</title>
+<link rel="stylesheet" href="../css/style.css" type="text/css">
+<script src="../css/jquery-1.11.0.min.js"></script>
+</head>
+<body>
+<?php include("header.php");?>
+<?php include("../back/register.php");?>
+<div class="body">
+<div class="content">
+<div class="text">
+
+<br><br><br>
+<br><br><br>
+<form  align="center" style="padding: 0;margin:0;" action="" method="post">
+<input type="image" src="../images/steamlogin2.png" value="1" name="login">
+</form>
+<br>
 <table  cellpadding="5" cellspacing="10" align="center">
 <form style="padding: 0;margin:0;" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
 <tr align="left"><td>Username:</td><td> <input size=42 type="text" name="name">*</td>

@@ -122,7 +122,7 @@ while($row = $box->fetch_array())
 		else
 		{
 			//set
-			$box2->Set("Recommend","`Steamid`,`Hero0`,`Hero1`,`Hero2`","'".$das."','".$heroestorec[0] ."','".$heroestorec[1]."','".$heroestorec[2]."'","WHERE `Steamid`='".$das."'");
+			$box2->Set("Recommend","`Hero0`='" .$heroestorec[0]."',`Hero1`='".$heroestorec[1] ."',`Hero2`='".$heroestorec[2]."'","WHERE `Steamid`='".$das."'");
 		}
 		$box2->Set("Users","`lastupdate`='".time()."'","WHERE `SteamID`='".$das."'"); 
 }

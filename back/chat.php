@@ -1,5 +1,6 @@
+<?php include_once "../back/class/db.php";?>
 <?php
-include("class/db.php");
+
 $unErr =  "";
 $test3 = new DB_class();  
 

@@ -1,4 +1,4 @@
-<?php include("header.php"); ?>
+<?php include_once "../back/class/db.php";?>
 <?php
 
 // define variables and set to empty values
