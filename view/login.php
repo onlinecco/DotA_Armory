@@ -1,5 +1,4 @@
 <?php include("../back/core.php");?>
-<?php include("../back/login.php"); ?>
 <html>
 <head>
 <meta charset="UTF-8">
@@ -9,7 +8,9 @@
 
 <body>
 <?php include("header.php");?>
-					<div class="body">
+
+<?php include("../back/login.php");?>
+<div class="body">
 <div class="content">
 <div class="text">
 <?php 

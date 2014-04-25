@@ -1,6 +1,6 @@
 <?php include("../back/core.php");?>
 <?php include("../back/class/d2api.php");?>
-<?php include("../back/class/db.php");?>
+<?php include_once "../back/class/db.php";?>
 <?php
 $d2 = new d2api;
 $box = new DB_class;

@@ -22,7 +22,7 @@ $(document).ready(function () {
 #commentWrapper {
 top: 250px;  
 position: absolute;
-  margin-left: 35px;
+  margin-left: 25px;
   width: 140px;
 height: 280px;
 }
@@ -32,7 +32,7 @@ height: 280px;
   top: 0;
   /* just used to show how to include the margin in the effect */
   margin-top: 20px;
-  border-top: 3px solid purple;
+  border-top: 5px solid blue;
   padding-top: 5px;
   background-color: white;
  z-index: 1100;
@@ -40,21 +40,15 @@ color: black;
 }
 
 #comment.fixed {
+
   position: fixed;
- width:140px;
   top: 0;
 }
 #messages{
 padding: 5px;
-height: 100px;
+height: 150px;
 border-bottom: 2px solid black;
-}
-#msend{
-padding-right:10px;
-display: inline-block;
-height: 15px;
-width:7px;
-background-image: url('../images/chat2.png');
+overflow-y: scroll;
 }
 #input{
 	padding-top: 5px;
@@ -71,11 +65,20 @@ display: inline-block;
 <div id="commentWrapper">
   <div id="comment">
 	<div id="messages">
-	Alice: This website is fantastic!
+	<?php include("../back/chat.php"); ?>
 	</div>
+	<script>
+var d = document.getElementById('messages');
+
+if(d.scrollHeight > d.clientHeight) {
+  d.scrollTop = d.scrollHeight - d.clientHeight;
+}
+	</script>
 	<div id="input">
-	<input id="message" size="15" type="text" name="lastname">
-	<div id="msend"></div>
+        <form STYLE="margin: 0px; padding: 0px;" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
+	 <input id="message" size="15" type="text" name="name2">
+        <input type="image" src="../images/chat2.png" alt="Send"> 
+        </form>
 	</div>
   </div>
 

@@ -1,11 +1,11 @@
+<?php include("header.php"); ?>
 <?php
 
-include("class/db.php");
 // define variables and set to empty values
 $pwErr=$nameErr = $emailErr = $genderErr = $websiteErr = "";
 $password=$name = $email = $gender = $comment = $website = "";
 session_start();
-$box = new DB_class;
+$test = new DB_class;
 
 if ($_SERVER["REQUEST_METHOD"] == "POST")
 {
@@ -59,7 +59,7 @@ if (!preg_match("/^[0-9]*$/",$website))
 
 if($pwErr== "" && $nameErr == "" && $emailErr == "" && $genderErr == "" && $websiteErr == "")
 {
-	$query = $box->add("Users","`Username`,`Password`,`SteamID`,`Email`","'".$name."','".$password."','".$website."','".$email."'");
+	$query = $test->add("Users","`Username`,`Password`,`SteamID`,`Email`","'".$name."','".$password."','".$website."','".$email."'");
 	if($query)
 	{
 		$_SESSION['username'] = $name;

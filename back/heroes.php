@@ -1,5 +1,4 @@
 <?php
-include("class/db.php");
 $unErr =  "";
 $test = new DB_class();                    
                                                     

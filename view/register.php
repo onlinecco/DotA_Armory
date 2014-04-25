@@ -1,6 +1,5 @@
 <?php 
 include("../back/core.php");
-include("../back/register.php");
 require '../back/class/openid.php';
 try {
     # Change 'localhost' to your domain name.
@@ -50,6 +49,7 @@ try {
 <div class="content">
 <div class="text">
 
+<?include("../back/register.php");?>
 <br><br><br>
 <br><br><br>
 <form align="center" action="" method="post">

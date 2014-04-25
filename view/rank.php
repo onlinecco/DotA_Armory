@@ -26,11 +26,11 @@ $.ajax({
                 },
                 success: function(data){
 			$("#wait").hide();
-			var hahaha = "<table id='rank'><tr><td algn='center'>Rank</td><td>Player</td><td>Winrate</td></tr>";
+			var hahaha = "<table id='rank'><tr><td algn='center'>Rank</td><td>Player</td></tr>";
 			for(var i = 0;i<data.length;i++)
 			{
 				var i1= i+1;
-                            hahaha += "<tr><td>"+i1+"</td><td><a href=\"steam://friends/add/"+data[data.length-i-1][2]+ "\"><div class=\"userpro\"><img src=\"" +data[data.length-i-1][1]+  "\"></img>" +data[data.length-i-1][0]+  "</div><img src='../images/chat.png'></img></td><td>" + data[data.length-1-i][3]+"</td></tr></a>";
+                            hahaha += "<tr><td>"+i1+"</td><td><a href=\"steam://friends/add/"+data[data.length-i-1][2]+ "\"><div class=\"userpro\"><img src=\"" +data[data.length-i-1][1]+  "\"></img>" +data[data.length-i-1][0]+  "</div><img src='../images/chat.png'></img></td></tr></a>";
                         }
 
 			hahaha += "</table>";

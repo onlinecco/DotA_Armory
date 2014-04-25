@@ -1,7 +1,6 @@
 <?php
-include("class/db.php");
 
-$box = new DB_class;
+$test = new DB_class;
 // define variables and set to empty values
 $emailErr=$opwErr=$pw2Err=$pwErr=$unErr=$profileinfo=  "";
 $email=$opassword=$password2=$password=$username = "";
@@ -80,7 +79,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
 
 	if($opwErr == "" && $emailErr == "" &&$unErr == "" && $pwErr == "" && $pw2Err =="")
 	{
-		$pass = $box->Get("Users","`Password`,`SteamID`","WHERE `username`= '" . $_SESSION['username'] . "' LIMIT 1");
+		$pass = $test->Get("Users","`Password`,`SteamID`","WHERE `username`= '" . $_SESSION['username'] . "' LIMIT 1");
 		if($pass == FALSE)
 			$logininfo = "The username does not exist.";
 		else
@@ -103,7 +102,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
 	}
 	else
 	{
-		$query = $box->Del("Users","`username`='" . $_SESSION['username']. "'");
+		$query = $test->Del("Users","`username`='" . $_SESSION['username']. "'");
 		if($query)
 		{ 
 			$_SESSION['username'] = "";

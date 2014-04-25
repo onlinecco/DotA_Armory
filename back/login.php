@@ -1,6 +1,7 @@
+<?php include_once "../back/class/db.php";?>
 <?php
-include("class/db.php");
 
+//include("./class/db.php"); 
 $box = new DB_class;
 // define variables and set to empty values
 $pwErr=$unErr=$logininfo=  "";

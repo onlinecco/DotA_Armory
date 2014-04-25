@@ -17,6 +17,7 @@ while($row = $box->fetch_array())
         $result = $d2->getPlayerInfo($row['SteamID']);
 
         $p[0] = $result['personaname'];
+	flush();
        	echo "Player $p[0] in progress:<br>";
 	$p[1] = $result['avatarmedium'];
        	$p[2] = $row['SteamID'];
@@ -26,13 +27,10 @@ while($row = $box->fetch_array())
         	
 
 			$coords = array();
-		$skill = 1;
-		while($skill<4)
-		{	
-		echo "searching for skill $skill <br>";
-               $result = $d2->getMatchesSkill($row['SteamID'],$skill);
+		$result = $d2->getMatchesSkill($row['SteamID'],$skill);
 
 
+			$flag1 = 1;
         	if(is_array($result))
         	{
 			$curTime = time() - 3600*24;
@@ -41,7 +39,7 @@ while($row = $box->fetch_array())
 			$total = 0;
         		foreach($result as $element)
         		{
-				//echo $element['match_id'];
+				echo $element['match_id'];
 				$detail = $d2->getMatchDetail($element['match_id']);
 				if($detail['start_time'] < $curTime){
 					if($total == 0) $winrate = 0;
@@ -62,6 +60,7 @@ while($row = $box->fetch_array())
 				}
 			
 				if($lastday>6) break;
+				$flag1 = 0;
 				$total = $total +1;	
 				$players = $element['players'];
 				foreach($players as $player)
@@ -82,15 +81,11 @@ while($row = $box->fetch_array())
 						$win = $win+1;
 						if($detail['lobby_type']=='7')
 						{
-							if($skill = 1)	$rank = $rank +2;
-							if($skill = 2)  $rank=$rank+4;
-							if($skill = 3)	$rank=$rank+6;
+							$rank=$rank+4;
 						}
 						if($detail['lobby_type']=='0' || $detail['lobby_type']=='5' || $detail['lobby_type']=='6')
 						{
-							if($skill = 1)	$rank = $rank +1;
-							if($skill = 2)  $rank=$rank+2;
-							if($skill = 3)	$rank=$rank+3;
+							$rank=$rank+2;
 						}	
 					}
 					else
@@ -98,15 +93,11 @@ while($row = $box->fetch_array())
 						//lose
 						if($detail['lobby_type']=='7')
 						{
-							if($skill = 1)	$rank = $rank -2;
-							if($skill = 2)  $rank=$rank-4;
-							if($skill = 3)	$rank=$rank-6;
+							$rank=$rank-4;
 						}
 						if($detail['lobby_type']=='0' || $detail['lobby_type']=='5' || $detail['lobby_type']=='6')
 						{
-							if($skill = 1)	$rank = $rank -1;
-							if($skill = 2)  $rank=$rank-2;
-							if($skill = 3)	$rank=$rank-3;
+						  $rank=$rank-2;
 						}
 					}
 				}
@@ -117,15 +108,11 @@ while($row = $box->fetch_array())
 						$win = $win+1;
 						if($detail['lobby_type']=='7')
 						{
-							if($skill = 1)	$rank = $rank +2;
-							if($skill = 2)  $rank=$rank+4;
-							if($skill = 3)	$rank=$rank+6;
+						  $rank=$rank+4;
 						}
 						if($detail['lobby_type']=='0' || $detail['lobby_type']=='5' || $detail['lobby_type']=='6')
 						{
-							if($skill = 1)	$rank = $rank +1;
-							if($skill = 2)  $rank=$rank+2;
-							if($skill = 3)	$rank=$rank+3;
+						  $rank=$rank+2;
 						}
 					
 					}
@@ -134,22 +121,18 @@ while($row = $box->fetch_array())
 						//lose
 						if($detail['lobby_type']=='7')
 						{
-							if($skill = 1)	$rank = $rank -2;
-							if($skill = 2)  $rank=$rank-4;
-							if($skill = 3)	$rank=$rank-6;
+						$rank=$rank-4;
 						}
 						if($detail['lobby_type']=='0' || $detail['lobby_type']=='5' || $detail['lobby_type']=='6')
 						{
-							if($skill = 1)	$rank = $rank -1;
-							if($skill = 2)  $rank=$rank-2;
-							if($skill = 3)	$rank=$rank-3;
+						 $rank=$rank-2;
 						}
 					}
 				}
         		}
-        	}
-		$skill = $skill + 1;
+			
 		}
+		if($flag1) $rank = -999;
 		$box2->Get("Users","","WHERE `Steamid`='" . $row['SteamID'] . "'");
 		$das = $row['SteamID'];
 		$box2->Set("Users","`Rank`='". $rank ."'","WHERE `Steamid`='".$das."'");
