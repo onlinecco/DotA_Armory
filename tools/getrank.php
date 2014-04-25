@@ -55,9 +55,9 @@ while($row = $box->fetch_array())
                                                 $lastday = $lastday + 1;
                                                 $curTime = $curTime - 3600*24;
                                         }
-					$win = 0;
-					$total = 0;
-				}
+						$win = 0;
+						$total = 0;
+					}
 			
 				if($lastday>6) break;
 				$flag1 = 0;
@@ -67,12 +67,12 @@ while($row = $box->fetch_array())
 				{
        					$converted = '765'.($player['account_id'] + 61197960265728);
     
-					if($converted == $row['SteamID'])
-					{
-						$playerslot = $player['player_slot'];
-						break;
+						if($converted == $row['SteamID'])
+						{
+							$playerslot = $player['player_slot'];
+							break;
+						}
 					}
-				}
 				
 				if($playerslot < 5)
 				{
