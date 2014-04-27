@@ -14,8 +14,11 @@
 <div class="text" align="center">
 
 <img id="wait" src="../images/loading2.gif"></img>
+
+<div id="hehe"></div>
 <script language="javascript" charset="utf-8">
 $("#wait").show(); 
+<?php if(isset($_SESSION['isLogin'])&& $_SESSION['isLogin']) { ?>
 $.ajax({
                 url: '../back/recommendback.php',
                 type: 'POST',
@@ -38,10 +41,12 @@ $.ajax({
 });
 
 
- 
+ <?php }else{ ?>
+
+			document.getElementById('hehe').innerHTML += "Please login first!"; 
+<?php } ?>
 
 </script>
-<div id="hehe"></div>
 
 </div>
 </div>

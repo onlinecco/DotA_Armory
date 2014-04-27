@@ -446,3 +446,4 @@
 [24-Apr-2014 21:36:20 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'root'@'localhost' (using password: NO) in /home/dotaarmory/public_html/back/class/db.php on line 50
 [24-Apr-2014 21:36:20 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/dotaarmory/public_html/back/class/db.php on line 50
 [24-Apr-2014 21:36:20 America/Chicago] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, null given in /home/dotaarmory/public_html/back/class/db.php on line 115
+[26-Apr-2014 23:15:32 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/dotaarmory/public_html/view/recommend.php on line 42
