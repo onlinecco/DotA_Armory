@@ -77,3 +77,4 @@
 [24-Apr-2014 16:45:30 America/Chicago] PHP Fatal error:  Class 'DB_class' not found in /home/dotaarmory/public_html/back/players.php on line 4
 [24-Apr-2014 16:55:30 America/Chicago] PHP Fatal error:  Class 'DB_class' not found in /home/dotaarmory/public_html/back/players.php on line 4
 [24-Apr-2014 16:55:37 America/Chicago] PHP Fatal error:  Class 'DB_class' not found in /home/dotaarmory/public_html/back/players.php on line 4
+[27-Apr-2014 01:41:54 America/Chicago] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, null given in /home/dotaarmory/public_html/back/class/db.php on line 115

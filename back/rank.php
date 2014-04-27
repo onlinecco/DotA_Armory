@@ -21,6 +21,10 @@ while($row = $box->fetch_array())
         array_push($data,$user);	
 
 }
+//$data2 = array();
+//$box->Get("`Users`,`Stats`","","WHERE Users.SteamID = Stats.Steamid ORDE BY mostgpm LIMIT 1");
+//$row = $box->fetch_array();
+//$entry = 
 
 function cmp($a, $b) {
     if ($a[3] == $b[3]) {
