@@ -1,3 +1,4 @@
+<?php include_once "../back/core.php";?>
 <?php include_once "../back/class/db.php";?>
 <?php
 
@@ -17,7 +18,7 @@ $test3 = new DB_class();
             if($_POST["name2"]!="")
             {$dt = time();
             $names = $_SESSION['username'];
-             if(empty($name))
+             if(empty($names))
              $names = "anonymous";
             $test3->Add("Chat","`Message`,`Time`,`Username`","'".$_POST["name2"]."','".$dt."','".$names."'");
 
