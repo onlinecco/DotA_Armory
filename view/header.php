@@ -41,6 +41,7 @@ color: black;
 
 #comment.fixed {
 
+  width: 140px;
   position: fixed;
   top: 0;
 }
